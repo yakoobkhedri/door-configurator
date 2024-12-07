@@ -1,0 +1,362 @@
+#Tur {
+    position: fixed;
+    left: 130mm;
+    width: 35mm;
+    top: 45.5mm;
+}
+#Glas {
+    /* Glas */
+    position: fixed;
+    background:
+        linear-gradient(90deg, rgba(255, 255, 255, .13) 1%, transparent 0%) 0px 0,
+        rgba(155, 255, 255, 0.19);
+    background-size: 16px 48px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(1px);
+    border-radius: 01px;
+    border: 1px solid rgba(52, 251, 244, 0.01);
+    top: 7mm;
+    left: 7.3mm;
+    width: 203mm;
+    height: 143mm;
+}
+#Rahmen {
+    /* Rahmen Tür*/
+    position: fixed;
+    border-style: Solid;
+    border-color: rgba(87, 87, 86, 1);
+    border-width: 1.5mm;
+    top: 30.2mm;
+    left: 48.7mm;
+    width: 60.4mm;
+    height: 120mm;
+}
+/* masee zeigen */
+#widthGlaslinks {
+    font-size: 14px;
+    display: Block;
+    position: fixed;
+    top: 167mm;
+    left: 8mm;
+    width: 15mm;
+    height: 2mm;
+}
+#widthGlaslinkss {
+    display: Block;
+    position: fixed;
+    font-size: 14px;
+    top: 167mm;
+    left: 20mm;
+    width: 202mm;
+    height: 2mm;
+}
+/* masee zeigen */
+#widthtürlinks {
+    display: Block;
+    position: fixed;
+    font-size: 14px;
+    top: 167mm;
+    left: 58mm;
+    width: 15mm;
+    height: 2mm;
+}
+
+#widthtürlinkss {
+    display: Block;
+    position: fixed;
+    font-size: 14px;
+    top: 167mm;
+    left: 74mm;
+    width: 202mm;
+    height: 2mm;
+}
+/* masee zeigen */
+#widthtürrechts {
+    display: Block;
+    position: fixed;
+    font-size: 14px;
+    top: 167mm;
+    left: 118mm;
+    width: 15mm;
+    height: 2mm;
+}
+#widthtürrechtss {
+    display: Block;
+    position: fixed;
+    font-size: 14px;
+    top: 167mm;
+    left: 134mm;
+    width: 202mm;
+    height: 2mm;
+}
+/* masee zeigen */
+#widthGlasrechts {
+    display: Block;
+    position: fixed;
+    font-size: 14px;
+    top: 167mm;
+    left: 128mm;
+    width: 15mm;
+    height: 2mm;
+}
+#widthGlasrechtss {
+    display: Block;
+    position: fixed;
+    font-size: 14px;
+    top: 167mm;
+    left: 144mm;
+    width: 202mm;
+    height: 2mm;
+}
+/* masee zeigen */
+#widthSuma {
+    display: Block;
+    position: fixed;
+    font-size: 14px;
+    top: 177mm;
+    left: 28mm;
+    width: 100mm;
+    height: 2mm;
+}
+#widthSum {
+    display: Block;
+    position: fixed;
+    font-size: 14px;
+    top: 177mm;
+    left: 76mm;
+    width: 202mm;
+    height: 2mm;
+}
+/* masee zeigen */
+#heightSuma {
+    display: Block;
+    position: fixed;
+    font-size: 14px;
+    top: 177mm;
+    left: 102mm;
+    width: 100mm;
+    height: 2mm;
+}
+#heightSum {
+    display: Block;
+    position: fixed;
+    font-size: 14px;
+    top: 177mm;
+    left: 149mm;
+    width: 202mm;
+    height: 2mm;
+}
+/* my style */
+#rightPanel2 {
+    position: fixed;
+    top: 336px;
+    left: 0;
+    display: flex;
+    transform: translate(0%, -59%);
+    transform-origin: center;
+    width: max-content;
+    padding: 0;
+    background-color: white;
+}
+#rightPanel2::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: -113px;
+    width: 99%;
+    height: 118px;
+    background-image: url('../img/wall.jpg');
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+}
+#GlasRight {
+    position: relative;
+    width: 60mm;
+    height: 100mm;
+    display: block;
+    background-color: #F5F5F5;
+    opacity: 1;
+    border: 4px solid #B1B1B1;
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    background-image: url('../img/wall.jpg');
+    background-position: center;
+    background-size: contain;
+    z-index: 10;
+}
+#GlasRight::before {
+    position: absolute;
+    content: '';
+    left: -4px;
+    top: -7px;
+    width: 4px;
+    height: 100%;
+    background-color: #b1b1b1;
+}
+#GlasLeft {
+    width: 60mm;
+    height: 100mm;
+    display: block;
+    background-color: #F5F5F5;
+    opacity: 1;
+    border: 4px solid #B1B1B1;
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    position: relative;
+    background-image: url('../img/wall.jpg');
+    background-position: center;
+    background-size: contain;
+    z-index: 10;
+}
+#GlasLeft::before {
+    position: absolute;
+    content: '';
+    right: -4px;
+    top: -7px;
+    width: 4px;
+    height: 6%;
+    background-color: #b1b1b1;
+}
+#GlasFront {
+    /* overflow: hidden; */
+    width: 32mm;
+    height: 100mm;
+    display: block;
+    opacity: 1;
+    border-width: 13px;
+    border-color: black;
+    border-style: solid;
+    border-bottom: 0;
+    position: relative;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-image: url('../img/IMG_20241126_180043_598.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: 10;
+}
+#GlasFront #line {
+    position: absolute;
+    content: '';
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-left: auto;
+    top: -21px;
+    width: 100%;
+    height: 4px;
+    background-color: #b1b1b1;
+}
+#GlasFront #line::after {
+    position: absolute;
+    content: '';
+    right: -21px;
+    top: 0px;
+    width: 100%;
+    height: 4px;
+    background-color: #b1b1b1;
+}
+#GlasFront #line::before {
+    position: absolute;
+    content: '';
+    left: -21px;
+    top: 0px;
+    width: 100%;
+    height: 4px;
+    background-color: #b1b1b1;
+}
+#GlasFront #Glass {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(90deg, rgba(255, 255, 255, .13) 1%, transparent 0%) 0px 0,
+        rgba(155, 255, 255, 0.19);
+    background-size: 16px 18px;
+    box-shadow: 0 3px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0.1px);
+    -webkit-backdrop-filter: blur(1px);
+    opacity: 1;
+}
+#Glass #GlassColor{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+#design,#design #svg,#design #designImg,#design #designImg img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+}
+#design #img{
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  inset: 0;
+  margin: auto;
+  z-index: 8;
+  display: none;
+}
+#Glass #lola-top {
+    position: absolute;
+    width: 20px;
+    top: 12%;
+    right: -8px;
+    z-index: 10;
+}
+#Glass #dastgire {
+    position: absolute;
+    bottom: 150px;
+    left: -5px;
+    width: 51px;
+    z-index: 10;
+}
+#Glass #lola-bottom {
+    width: 20px;
+    position: absolute;
+    top: 82%;
+    right: -8px;
+    z-index: 10;
+}
+.lola .cls-1,
+#dastgire .cls-1 {
+    stroke-width: 1.16px;
+}
+.w-10 {
+    width: 10px;
+}
+.w-22 {
+    width: 22px;
+}
+.w-32 {
+    width: 32px;
+}
+.w-40 {
+    width: 40px;
+}
+.w-43 {
+    width: 43px;
+}
+.h-38{
+    height: 38px;
+}
+.opacity-0{
+    opacity: 0;
+}
+.cursor{
+    cursor: pointer;
+}
+.bg-gray{
+    background-color: #e9e9ed;
+}
+.ui-wrapper{
+    width: 100%;
+    height: 100%;
+}

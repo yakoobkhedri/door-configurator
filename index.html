@@ -1,0 +1,813 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>sample</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/Model.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div id="rotateImage">
+    </div>
+
+    <div class="container-fluid" id="printArea">
+        <div class="row">
+            <div id="logo" class="d-flex justify-content-end">
+                <img src="img/logo.png" width="200" />
+            </div>
+            <div class="d-flex flex-column gap-2">
+                <p class="m-0">Erkelenz Glas GmbH</p>
+                <p class="m-0">Blockweg 2</p>
+                <p class="m-0">33129 Delbrück</p>
+                <p class="m-0">02944 979950</p>
+                <p class="m-0">info@erkelenz-glas.de</p>
+
+            </div>
+            <hr />
+        </div>
+        <ul id="features">
+            <li>
+                Steel | Line Variante 1
+            </li>
+            <li>
+                Name: <span id="printNamee"></span>.
+            </li>
+            <li>
+                Rahmenaußenmaß Breite :<span id="printWwwww"></span>mm
+            </li>
+            <li>
+                Rahmenaußenmaß Höhe : <span id="printHhh"></span>mm
+            </li>
+            <!-- <li> -->
+            <!-- Tür Höhe: <span id="printH"></span>mm -->
+            <!-- </li> -->
+            <!-- <li> -->
+            <!-- SeitenteilLinks: <span id="printWw"></span>mm -->
+            <!-- </li> -->
+            <!-- <li> -->
+            <!-- Tür: <span id="printW"></span>mm -->
+            <!-- </li> -->
+            <!-- <li> -->
+            <!-- Tür Recht: <span id="printWww"></span>mm -->
+            <!-- </li> -->
+
+            <!-- <li> -->
+            <!-- SeitenteilRecht: <span id="printWwww"></span>mm -->
+            <!-- </li> -->
+
+            <li>
+                Anordnung Türflügel: DIN <span id="printDinRichtung"></span> <!-- DIN-Richtung: -->
+            </li>
+            <li>
+                Griffsitz UKT: <span id="printGoM"></span>mm
+            </li>
+            <li>
+                Schloss/Griff: <span id="printSchlossGriffauswahl"></span>
+            </li>
+            <li>
+                Griffstangenlänge: <span id="printIsth"></span>mm
+            </li>
+            <!--         <li>
+            Sprossen: <span id="printLineOne">1x vertikal, 1x horizontal </span>
+        </li>
+        <li>
+            Sprossen: <span id="printLineTwo">2x vertikal, 2x horizontal </span>
+        </li>
+        <li>
+            Sprossen: <span id="printLineFour">2x vertikal mittig Griffstange </span>
+        </li>
+        <li>
+            Sprossen: <span id="printLineFive">2x vertikal mittig Schlosskasten </span>
+        </li> -->
+            <li>
+                Farbe: <span id="printFarbe"></span>
+            </li>
+            <li>
+                Glasart: <span id="printGlasart"></span>
+            </li>
+        </ul>
+        <div id="printTop"></div>
+    </div>
+
+    <div id="noPrint">
+        <div class="container-fluid vh-100">
+            <div class="row p-3" dir="rtl">
+                <div class="col-lg-3" id="leftPanel" dir="ltr">
+                    <form class="d-flex flex-column gap-3 border-1 border p-3 rounded">
+                        <p>Steel | Line Variante 1</p>
+                        <div class="d-flex flex-column gap-2">
+                            <p id="textasssss" style="display:block">Name Nachname</p>
+                            <input type="Text" class="form-control" name="width" id="Namee"
+                                placeholder="Max Mustermann" />
+                        </div>
+                        <!-- Farbauswahl für das Motiv-->
+                        <div class="col-sm-10" style="display:Block">
+                            <h6>Maße nach Wandöffnung oder Rahmenaußenmaß ?</h6>
+                            <select class="form-control" id="drpC">
+                                <option value="Wandoffnung">Wandöffnung</option>
+                                <option selected="selected" value="Zargenaußenmaß">Rahmenaußenmaß </option>
+                            </select>
+                        </div>
+                        <p>
+                            <!-- Breite Wandöffnung -->
+                        <div class="col-sm-12" style="display:none" id="wwwwwBB">
+                            <p id="textaa" style="display:block">Breite (Wandöffnung) in mm</br> (min. 300mm max.
+                                1200mm)</p>
+                            <input type="number" class="form-control width-input" name="width" id="wwwwwB" />
+                        </div>
+                        <!-- Breite Rahmenaußenmaß  -->
+                        <div class="col-sm-12" style="display:Block" id="wwwwwH">
+                            <p id="textaa" style="display:block">Breite (Rahmenaußenmaß ) in mm</br> (min. 300mm max.
+                                1200mm)</p>
+                            <input type="number" class="form-control width-input" name="width" id="wwwww" />
+                        </div>
+                        <!-- Höhe Wandöffnung -->
+                        <div class="col-sm-12" style="display:none" id="Whhhh">
+                            <p id="textaa2" style="display:block">Höhe (Wandöffnung) in mm</br> (min. 1200mm max.
+                                3000mm)</p>
+                            <input type="number" class="form-control height-input" name="height" id="Whhh" />
+                        </div>
+                        <!-- Höhe Rahmenaußenmaß  -->
+                        <div class="col-sm-12" style="display:Block" id="hhhF">
+                            <p id="textaa2" style="display:block">Höhe (Rahmenaußenmaß ) in mm</br> (min. 1200mm max.
+                                3000mm)</p>
+                            <input type="number" class="form-control height-input" name="height" id="hhh" />
+                        </div>
+                        <!-- Breite Seitenteil links -->
+                        <div class="d-flex flex-column gap-2">
+                            <p id="textaa" style="display:none">Breite Seitenteil links in mm</br> (min. 300mm max.
+                                1200mm)</p>
+                            <input type="number" style="display:none" class="form-control width-input" name="widthFL"
+                                id="ww" />
+                        </div>
+                        <!-- Türbreite links -->
+                        <div class="d-flex flex-column gap-2">
+                            <p id="textaa" style="display:none">Türbreite in mm</br> (min. 300mm max. 1200mm)</p>
+                            <input type="number" style="display:none" class="form-control width-input" name="width"
+                                id="w" />
+                        </div>
+                        <!-- Türbreite rechts -->
+                        <div class="d-flex flex-column gap-2">
+                            <p id="textaa" style="display:none">Türbreite rechts in mm</br> (min. 300mm max. 1200mm)</p>
+                            <input style="display:none" type="number" class="form-control width-input" name="widthh"
+                                id="www" />
+                        </div>
+                        <!-- Breite Seitenteil rechts -->
+                        <div class="d-flex flex-column gap-2">
+                            <p id="textaa" style="display:none">Breite Seitenteil rechts in mm</br> (min.300mm max.
+                                1200mm)</p>
+                            <input type="number" style="display:none" class="form-control width-input" name="widthFR"
+                                id="wwww" />
+                        </div>
+                        <!-- Türhöhe -->
+                        <div class="d-flex flex-column gap-2">
+                            <p id="textaa2" style="display:none">Türhöhe in mm</br> (min. 1200mm max. 3000mm)</p>
+                            <input style="display:none" type="number" class="form-control height-input" name="height"
+                                id="h" value="2000" />
+                        </div>
+                        <!--Griffsitz UKT  display:none  -->
+                        <div class="d-flex flex-column gap-2" id='Tür_Griff_DIN_von_unten'>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <label style="display:none">Griffsitz von Unterkante Tür </label>
+                            </div>
+                            <input type="number" value="80" class="form-control" style="display:none"
+                                name="Griff_UKT_Mass" id="GUM" />
+                        </div>
+                        <!--Griffsitz UKT  display:none  -->
+                        <!--lola design-->
+                        <div class="p-3">
+                            <p> lola Design</p>
+                            <div class="d-flex justify-content-between gap-3">
+                                <a data-bs-toggle="modal" data-bs-target="#lolaDesign">
+                                    <img id='loladesign' src="img/lola/lola.PNG" class="slider-image w-100" />
+                                    <br><label id="lolaLabel" for="Glasdesign">lola</label>
+                                    <br><br>
+                                </a>
+                            </div>
+                        </div>
+                        <!--dastgire design-->
+                        <div class="p-3">
+                            <p> dastgire Design</p>
+                            <div class="d-flex justify-content-between gap-3">
+                                <a data-bs-toggle="modal" data-bs-target="#dastgireDesign">
+                                    <img id='dastgiredesign' src="img/Dastgire/one.PNG" class="slider-image w-100" />
+                                    <br><label id="dastgireLabel" for="Glasdesign">one</label>
+                                    <br><br>
+                                </a>
+                            </div>
+                        </div>
+                        <!--Griffsitz UKT-->
+                        <div class="d-flex flex-column gap-2">
+                            <label>Griffsitz von Unterkante Tür in mm <br> (min.500mm max.1350mm)</label>
+                            <input onchange="changeSvgPosition()" type="number" value="1050" class="form-control"
+                                name="Griff_AKG_Mass" id="GoM" />
+                        </div>
+                        <div id="MaßeStange" class="flex-column gap-2 d-none">
+                            <p id="ssssss" style="display:block">Länge Griffstange in mm (min.250mm max.Türhöhe)</p>
+                            <input id='isth' value="400" type="number" class="form-control" name="ws" />
+                        </div>
+                        <!--Glasstärke-->
+                        <!--Metallfarbe-->
+                        <div class="pt-5 pb-5">
+                            <div class="p-3">
+                                <p> Farbe</p>
+                                <div class="d-flex justify-content-between gap-3">
+                                    <a data-bs-toggle="modal" data-bs-target="#Schloss">
+                                        <img id='MetallFarbee' src="img/MetallFarbe/Black.jpg" class="slider-image"
+                                            width="150" />
+                                        <br><label id="metallfarbeLabel" for="MetallFarbee">RAL 7021 Schwarzgrau</label>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Glasart-->
+                        <div class="p-3">
+                            <p> Glasart</p>
+                            <div class="d-flex justify-content-between gap-3">
+                                <a data-bs-toggle="modal" data-bs-target="#galleryModalGlasart">
+                                    <img id='Glasartee' src="img/Glasart/ESG_Klar.jpg" class="slider-image"
+                                        width="150" />
+                                    <br><label id="glasartLabel" for="Glasartee">ESG klar</label>
+                                    <br><br>
+                                </a>
+                            </div>
+                        </div>
+                        <!--upload Glasart design-->
+                        <div class="p-3">
+                            <p> upload Glasart Design</p>
+                            <div
+                                class="d-flex align-items-center gap-2 border rounded-2 overflow-hidden cursor position-relative">
+                                <input id="imageInput" type="file"
+                                    class="opacity-0 cursor border-0 position-absolute w-100 h-100 top-0 bottom-0 end-0 start-0">
+                                <p class="mb-0 h-100 bg-gray p-2">open feil</p>
+                                <div id="fileName" class="flex-grow-1 h-100"></div>
+                            </div>
+                        </div>
+                        <!--Glasart design-->
+                        <div class="p-3">
+                            <p> Glasart Design</p>
+                            <div class="d-flex justify-content-between gap-3">
+                                <a data-bs-toggle="modal" data-bs-target="#galleryModalGlasartDesign">
+                                    <img id='Glasdesign' src="img/GlassDesign/cubs/photo15410070898.jpg" class="slider-image" width="150"
+                                        height="207" />
+                                    <br><label id="glasartDesignLabel" for="Glasdesign">cubs</label>
+                                    <br><br>
+                                </a>
+                            </div>
+                        </div>
+                        <!--Glasart color-->
+                        <div class="p-3">
+                            <p> Glasart color</p>
+                            <div class="d-flex justify-content-between gap-3">
+                                <a data-bs-toggle="modal" data-bs-target="#galleryModalGlasartColor">
+                                    <img id='GlasColor' src="img/MetallFarbe/Kupfer.jpg" class="slider-image"
+                                        width="150" height="207" />
+                                    <br><label id="glasartColorLabel" for="GlasColor">pink</label>
+                                    <br><br>
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--Bild Background-->
+            <div class="col-lg-9 d-flex align-items-center align-content-center" id="rightPanel">
+                <div class="Wand">
+                    <div id="rightPanel2">
+                        <div id="GlasLeft"></div>
+                        <div id="GlasFront">
+                            <div id="line"></div>
+                            <div id="Glass">
+                                <div id="GlassColor"></div>
+                                <div id="lola-top" class="position-absolute z-10 lola">
+
+                                </div>
+                                <div id="lola-bottom" class="position-absolute z-10 lola">
+
+                                </div>
+                                <div id="dastgire" class="position-absolute z-10">
+                                </div>
+                                <!-- design -->
+                                <div id="design">
+                                    <div id="svg"></div>
+                                    <img id="img">
+                                    <div id="designImg"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="GlasRight"></div>
+                    </div>
+                    <p>
+                        <b style="display:none" id="widthGlaslinks">
+                            <b>Breite:</b><span style="display:none" id="widthGlaslinkss">
+                            </span>
+                        </b>
+                    <p>
+                        <b style="display:none" id="widthtürlinks">
+                            <b>Breite:</b><span style="display:none" id="widthtürlinkss">
+                            </span>
+                        </b>
+                    <p>
+                        <b style="display:none" id="widthtürrechts">
+                            <b>Breite:</b><span style="display:none" id="widthtürrechtss">
+                            </span>
+                        </b>
+                    <p>
+                        <b style="display:none" id="widthGlasrechts">
+                            <b>Breite:</b><span style="display:none" id="widthGlasrechtss">
+                            </span>
+                        </b>
+                    </p>
+                    <p>
+                        <b id="widthSuma">
+                            <b>Rahmenaußenmaß Breite:</b><span id="widthSum">
+
+                            </span>
+
+                        </b>
+                    <p>
+                        <b id="heightSuma">
+
+                            <b>Rahmenaußenmaß Höhe:</b><span id="heightSum">
+
+                            </span>
+
+                        </b>
+                    </p>
+                    <div id="errorBox"></div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center p-3 gap-3">
+            <div class="w-100 position-fixed bottom-0 d-flex align-items-baseline"
+                style="z-index: 999999;bottom:10px;gap:10px;">
+                <button class="btn btn-info" id="printButton">Save as PDF</button>
+                <button class="btn btn-info" id="saveToDashboard">save in dasport</button>
+            </div>
+        </div>
+        <!-- Modal gallery for Metallfarbe -->
+        <div class="modal fade modal-xl" id="Schloss" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5">Metallfarbe</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#home" type="button" role="tab" aria-controls="home"
+                                    aria-selected="true">Metallfarbe
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="d-flex flex-wrap gap-3 pt-3">
+                                    <div>
+
+                                        <img id="black" src="img/MetallFarbe/Black.jpg" width="100" alt=""
+                                            onclick="chengbilder(event,'47, 48, 48, 1', 'RAL 9005 Tiefschwarz','Verriegelung_PZ_RAL7021_Schwarzgrau')" />
+                                        <br><label for="black">RAL 9005 <br>Tiefschwarz</label>
+                                    </div>
+                                    <div>
+
+                                        <img id="black" src="img/MetallFarbe/Black2.jpg" width="100" alt=""
+                                            onclick="chengbilder(event,'61, 65, 73, 1', 'RAL 7016  Anthrazit','Verriegelung_PZ_RAL7021_Schwarzgrau')" />
+                                        <br><label for="black">RAL 7016 <br>Anthrazit</label>
+                                    </div>
+                                    <div>
+
+                                        <img id="black" src="img/MetallFarbe/Black3.jpg" width="100" alt=""
+                                            onclick="chengbilder(event,'61, 65, 65, 1', 'RAL 7021 Schwarzgrau','Verriegelung_PZ_RAL7021_Schwarzgrau')" />
+                                        <br><label for="black">RAL 7021<br>Schwarzgrau</label>
+                                    </div>
+                                    <div>
+                                        <img id="white" src="img/MetallFarbe/Signalweiß.jpg" width="100" alt=""
+                                            onclick="chengbilder(event,'255, 255, 255, 1', 'RAL 9016 Verkehrsweiß','Verriegelung_PZ_RAL9003_Signalweiss');" />
+                                        <br><label for="white">RAL 9016<br>Verkehrsweiß</label>
+                                    </div>
+                                    <div>
+                                        <img id="white" src="img/MetallFarbe/Signalweiß.jpg" width="100" alt=""
+                                            onclick="chengbilder(event,'242, 241, 249, 1', 'RAL 9003 Signalweiß','Verriegelung_PZ_RAL9003_Signalweiss');" />
+                                        <br><label for="white">RAL 9003<br>Signalweiß</label>
+                                    </div>
+                                    <div>
+                                        <img src="img/MetallFarbe/Signalgrau.jpg" width="100" alt=""
+                                            onclick="chengbilder(event,'136, 145, 151, 1', 'RAL 7004 Signalgrau','Verriegelung_PZ_RAL7004_Signalgrau');" />
+                                        <br><label for="white">RAL 7004<br>Signalgrau</label>
+                                    </div>
+                                    <div>
+                                        <img id="brown" src="img/MetallFarbe/Brown.jpg" width="100" alt=""
+                                            onclick="chengbilder(event,'98, 82, 82, 1', 'Indian Brown','Verriegelung_PZ_IndianBrown');" />
+                                        <br><label for="brown">Indian Brown</label>
+                                    </div>
+                                    <div>
+                                        <img id="beigebraun" src="img/MetallFarbe/Beigegrau.jpg" width="100" alt=""
+                                            onclick="chengbilder(event,'104, 82, 82, 1', 'RAL 7006 Beigebraun','Verriegelung_PZ_RAL7006_Beigebraun');" />
+                                        <br><label for="beigebraun">RAL 7006<br>Beigebraun</label>
+                                    </div>
+                                    <div>
+                                        <img id="kupfer" src="img/MetallFarbe/Kupfer.jpg" width="100" alt=""
+                                            onclick="chengbilder(event,'110, 71, 71, 1', 'RAL 8029 Kupfer','Verriegelung_PZ_RAL8029_Kupfer');" />
+                                        <br><label for="kupfer">RAL 8029<br>Kupfer</label>
+                                    </div>
+                                    <div>
+                                        <img id="olive" src="img/MetallFarbe/Olivgrün.jpg" width="100" alt=""
+                                            onclick="chengbilder(event,'98, 118, 97, 1', 'RAL 6003 Olivgrün','Verriegelung_PZ_RAL6003_Olivgruen');" />
+                                        <br><label for="olive">RAL 6003<br>Olivgrün</label>
+                                    </div>
+                                    <div>
+                                        <img id="gold" src="img/MetallFarbe/Perlgold.jpg" width="100" alt=""
+                                            onclick="chengbilder(event,'118, 98, 78, 1', 'RAL 1036 Perlgold','Verriegelung_PZ_RAL1036_Perlgold');" />
+                                        <br><label for="gold">RAL 1036<br>Perlgold</label>
+                                    </div>
+                                    <div>
+                                        <img id="elfenbein" src="img/MetallFarbe/Hellelfenbein.jpg" width="100" alt=""
+                                            onclick="chengbilder(event,'242, 239, 200, 1', 'RAL 1015 Hellelfenbein','Verriegelung_PZ_RAL1015_Hellelfenbein');" />
+                                        <br><label for="elfenbein">RAL 1015<br>Hellelfenbein</label>
+                                    </div>
+                                    <div>
+                                        <img id="rosa" src="img/MetallFarbe/Hellrosa.jpg" width="100" alt=""
+                                            onclick="chengbilder(event,'195, 141, 186, 1', 'RAL 3015 Hellrosa','Verriegelung_PZ_RAL3015_Hellelfenbein');" />
+                                        <br><label for="rosa">RAL 3015<br>Hellrosa</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal gallery for Glasart-->
+        <div class="modal fade modal-xl" id="galleryModalGlasart" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5">Glasart</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                aria-labelledby="home-tab">
+                                <div class="d-flex flex-wrap gap-3 pt-3">
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Glasart/ESG_Klar.jpg" width="100" alt="ESG Klar"
+                                            onclick="chengbild(event,'0','0','0','180, 235, 215, 0.25','0, 0, 0, 0.1','252, 251, 244, 0.01', 'ESG klar');" />
+                                        <br><label for="ESG_klar">ESG klar</label>
+                                    </div>
+                                    <div>
+                                        <img id="Softweiss" src="img/Glasart/Softweiss.jpg" width="100"
+                                            alt="Softweiss"
+                                            onclick="chengbild(event,'0','0','0','207, 216, 219, 0.9','0, 0, 0, 0.1','252, 251, 244, 0.01', 'Softweiß');" />
+                                        <br><label for="Softweiss">Softweiß</label>
+                                    </div>
+                                    <div>
+                                        <img id="Grey" src="img/Glasart/Grey.jpg" width="100" alt="Grey"
+                                            onclick="chengbild(event,'0','0','0','154, 158, 160, 0.58','0, 0, 0, 0.1','252, 251, 244, 0.01', 'Grey');" />
+                                        <br><label for="Grey">Grey</label>
+                                    </div>
+                                    <div>
+                                        <img id="DarkGrey" src="img/Glasart/DarkGrey.jpg" width="100" alt="DarkGrey"
+                                            onclick="chengbild(event,'0','0','0','87, 93, 96, 0.9','0, 0, 0, 0.1','252, 251, 244, 0.01', 'DarkGrey');" />
+                                        <br><label for="DarkGrey">DarkGrey</label>
+                                    </div>
+                                    <div>
+                                        <img id="Bronze" src="img/Glasart/Bronze.jpg" width="100" alt="Bronze"
+                                            onclick="chengbild(event,'0','0','0','96, 96, 87, 0.38','0, 0, 0, 0.1','252, 251, 244, 0.01', 'Bronze');" />
+                                        <br><label for="Bronze">Bronze</label>
+                                    </div>
+                                    <div>
+                                        <img id="Flutes" src="img/Glasart/Flutes.jpg" width="100" alt="Flutes"
+                                            onclick="chengbild(event,'100','0','0','255, 255, 255, 0.38','0, 0, 0, 0.1','252, 251, 244, 0.01', 'Flutes');" />
+                                        <br><label for="Flutes">Flutes</label>
+                                    </div>
+                                    <div>
+                                        <img id="Estradio" src="img/Glasart/Estriado.jpg" width="100" alt="Estradio"
+                                            onclick="chengbild(event,'100','100','100','255, 255, 255, 0.38','0, 0, 0, 0.1','252, 251, 244, 0.01', 'Estradio');" />
+                                        <br><label for="Estradio">Estradio</label>
+                                    </div>
+                                    <div>
+                                        <img id="VisioSun" src="img/Glasart/Visio_Sun.jpg" width="100"
+                                            alt="Visio Sun"
+                                            onclick="chengbild(event,'100','100','0','255, 255, 255, 0.38','0, 0, 0, 0.1','252, 251, 244, 0.01', 'Visio Sun');" />
+                                        <br><label for="VisioSun">Visio Sun</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Chrom" src="img/Glasart/ESG_Chrom_verspiegelt.jpg" width="100"
+                                            alt="ESG Chrom verspiegelt"
+                                            onclick="chengbild(event,'0','0','0','182, 190, 213, 1','0, 0, 0, 0.1','252, 251, 244, 0.01', 'ESG Chrom verspiegelt');" />
+                                        <br><label for="ESG_Chrom">ESG Chrom verspiegelt</label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal gallery for Glasart design-->
+        <div class="modal fade modal-xl" id="galleryModalGlasartDesign" tabindex="-1"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5">Glasart design</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                aria-labelledby="home-tab">
+                                <div class="d-flex flex-wrap gap-4 pt-3">
+                                    <div onclick="openModal(event , 'cubs')">
+                                        <img id="ESG_Klar" src="img/GlassDesign/cubs/photo15410070898.jpg" width="101" height="138"
+                                            alt="ESG Klar" />
+                                        <br><br><label for="ESG_klar">cubs</label>
+                                    </div>
+                                    <div onclick="openModal(event , 'cubs2')">
+                                        <img id="ESG_Klar" src="img/GlassDesign/cubs/photo15410070898.jpg" width="101" height="138"
+                                            alt="ESG Klar" />
+                                        <br><br><label for="ESG_klar">cubs2</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal gallery for dastgire design-->
+        <div class="modal fade modal-xl" id="dastgireDesign" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5">dastgire design</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                aria-labelledby="home-tab">
+                                <div class="d-flex flex-wrap gap-4 pt-3">
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/one.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'one')" />
+                                        <br><br><label for="ESG_klar">one</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/two.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'two')" />
+                                        <br><br><label for="ESG_klar">two</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/three.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'verona')" />
+                                        <br><br><label for="ESG_klar">verona</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/four.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'palermo')" />
+                                        <br><br><label for="ESG_klar">palermo</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/turin.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'turin')" />
+                                        <br><br><label for="ESG_klar">turin</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/genova.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'genova')" />
+                                        <br><br><label for="ESG_klar">genova</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/venedig.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'venedig')" />
+                                        <br><br><label for="ESG_klar">venedig</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/como.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'como')" />
+                                        <br><br><label for="ESG_klar">como</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/parma.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'parma')" />
+                                        <br><br><label for="ESG_klar">parma</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/griffi.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'griffi')" />
+                                        <br><br><label for="ESG_klar">griffi</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/rondo.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'rondo')" />
+                                        <br><br><label for="ESG_klar">rondo</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/porto.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'porto')" />
+                                        <br><br><label for="ESG_klar">porto</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/cubo.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'cubo')" />
+                                        <br><br><label for="ESG_klar">cubo</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/milaneckig.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'milaneckig')" />
+                                        <br><br><label for="ESG_klar">milaneckig</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/milan.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'milan')" />
+                                        <br><br><label for="ESG_klar">milan</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/dorma.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'dorma')" />
+                                        <br><br><label for="ESG_klar">dorma</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/piatto.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'piatto')" />
+                                        <br><br><label for="ESG_klar">piatto</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/arcos.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'arcos')" />
+                                        <br><br><label for="ESG_klar">arcos</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/Dastgire/alpha.PNG" alt="ESG Klar"
+                                            onclick="chengDastgire(event,'alpha')" />
+                                        <br><br><label for="ESG_klar">alpha</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal gallery for lola design-->
+        <div class="modal fade modal-xl" id="lolaDesign" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5">lola design</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                aria-labelledby="home-tab">
+                                <div class="d-flex flex-wrap gap-4 pt-3">
+                                    <div>
+                                        <img id="ESG_Klar" src="img/lola/lola.PNG" alt="ESG Klar"
+                                            onclick="chengLola(event,'lola')" />
+                                        <br><br><label for="ESG_klar">lola</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/lola/junior.PNG" alt="ESG Klar"
+                                            onclick="chengLola(event,'junior')" />
+                                        <br><br><label for="ESG_klar">junior</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/lola/piatto.PNG" alt="ESG Klar"
+                                            onclick="chengLola(event,'piatto')" />
+                                        <br><br><label for="ESG_klar">piatto</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/lola/arcos.PNG" alt="ESG Klar"
+                                            onclick="chengLola(event,'arcos')" />
+                                        <br><br><label for="ESG_klar">arcos</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/lola/alpha.PNG" alt="ESG Klar"
+                                            onclick="chengLola(event,'alpha')" />
+                                        <br><br><label for="ESG_klar">alpha</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal gallery for Glasart color-->
+        <div class="modal fade modal-xl" id="galleryModalGlasartColor" tabindex="-1"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5">Glasart color</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                aria-labelledby="home-tab">
+                                <div class="d-flex flex-wrap gap-4 pt-3">
+                                    <div>
+                                        <img id="ESG_Klar" src="img/MetallFarbe/Kupfer.jpg" width="101" height="138"
+                                            alt="ESG Klar" onclick="chengGlassColor(event,'pink','#532f2e')" />
+                                        <br><br><label for="ESG_klar">pink</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/MetallFarbe/Olivgrün.jpg" width="101"
+                                            height="138" alt="ESG Klar"
+                                            onclick="chengGlassColor(event,'green','#52604e')" />
+                                        <br><br><label for="ESG_klar">green</label>
+                                    </div>
+                                    <div>
+                                        <img id="ESG_Klar" src="img/MetallFarbe/Perlgold.jpg" width="101"
+                                            height="138" alt="ESG Klar"
+                                            onclick="chengGlassColor(event,'brown','#8e693c')" />
+                                        <br><br><label for="ESG_klar">brown</label>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <!-- Modal gallery for Glasart design-->
+          <div class="modal fade modal-xl" id="globalModal" tabindex="-1"
+          aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h1 id="globalModalLabel" class="modal-title fs-5"></h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body" id="globalModalBody">
+                      <div class="tab-content" id="myTabContent">
+                          <div class="tab-pane fade show active" id="home" role="tabpanel"
+                              aria-labelledby="home-tab">
+                              <div class="d-flex flex-wrap gap-4 pt-3" id="colors">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/jquery.ui.touch-punch.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <script src="js/html2canvas.js" type="text/javascript"></script>
+        <script src="js/functions.js"></script>
+        <script src="js/handleSvgs.js"></script>
+        <script src="js/drag.js"></script>
+
+        <script src="js/min_max.js"></script>
+        <script src="js/print.js"></script>
+</body>
+
+</html>

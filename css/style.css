@@ -1,0 +1,82 @@
+label {
+    opacity: 0.75;
+}
+
+#rightPanel {
+    background: rgba(255, 255, 255, 1);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    height: 100vh;
+}
+
+@media (min-width: 992px) {
+    #rightPanel {
+        height: 100%;
+    }
+
+    #leftPanel {
+        margin-top: 80px;
+    }
+}
+
+
+@media print {
+    #noPrint {
+        display: none !important;
+    }
+}
+
+@media screen {
+    #printArea {
+        display: none !important;
+    }
+}
+
+.modal-body {
+    max-height: 60vh;
+    overflow: auto;
+}
+
+
+#rotateImage {
+	display:none;
+    height: 70%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999999;
+    width: 100vw;
+    height: 100vh;
+    background:url('../img/Querformat.jpg')no-repeat 100%/cover;
+    /* background: red; */
+    background-position: center center
+}
+
+#errorBox{
+    border:1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    /z-index: 9999999;
+    min-width: 200px;
+    display: none;
+    max-width: 300px;
+	font-size: 20px;
+	top: 50mm;
+	left: 250mm;
+	
+}
+
+
+
+#features{
+	font-size: 20px;
+
+}
+
+#printTop{
+	height: 210mm;
+	width: 210mm;
+}
