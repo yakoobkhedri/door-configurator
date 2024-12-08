@@ -424,6 +424,44 @@ function openModal(event ,title) {
       {imgUrl:'img/GlassDesign/cubus-4/cubus-4-Schilf.png' ,colorTitle:'cubus-4-Schilf' },
       {imgUrl:'img/GlassDesign/cubus-4/cubus-4-Whiteline.png' ,colorTitle:'cubus-4-Whiteline' },
     ],
+    [
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-Blackline.png' ,colorTitle:'cubus-5-Blackline' },
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-DarkGrey.png' ,colorTitle:'cubus-5-DarkGrey' },
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-Etch.png' ,colorTitle:'cubus-5-Etch' },
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-Extraweiss.png' ,colorTitle:'cubus-5-Extraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-FlaecheDarkGrey.png' ,colorTitle:'cubus-5-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-FlaecheEtch.png' ,colorTitle:'cubus-5-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-FlaecheExtraweiss.png' ,colorTitle:'cubus-5-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-FlaecheFloatGrey.png' ,colorTitle:'cubus-5-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-FloatGrey.png' ,colorTitle:'cubus-5-FloatGrey' },
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-Graphit.png' ,colorTitle:'cubus-5-Graphit' },
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-Maron.png' ,colorTitle:'cubus-5-Maron' },
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-MotivMaMaufEtch.png' ,colorTitle:'cubus-5-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-MotivMaMaufExtraweiss.png' ,colorTitle:'cubus-5-MotivMaMaufExtraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-Quarz.png' ,colorTitle:'cubus-5-Quarz' },
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-Schilf.png' ,colorTitle:'cubus-5-Schilf' },
+      {imgUrl:'img/GlassDesign/cubus-5/cubus-5-Whiteline.png' ,colorTitle:'cubus-5-Whiteline' },
+    ],
+    [],
+    [],
+    [
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-Blackline.png' ,colorTitle:'cubus-8-Blackline' },
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-DarkGrey.png' ,colorTitle:'cubus-8-DarkGrey' },
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-Etch.png' ,colorTitle:'cubus-8-Etch' },
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-Extraweiss.png' ,colorTitle:'cubus-8-Extraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-FlaecheDarkGrey.png' ,colorTitle:'cubus-8-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-FlaecheEtch.png' ,colorTitle:'cubus-8-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-FlaecheExtraweiss.png' ,colorTitle:'cubus-8-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-FlaecheFloatGrey.png' ,colorTitle:'cubus-8-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-FloatGrey.png' ,colorTitle:'cubus-8-FloatGrey' },
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-Graphit.png' ,colorTitle:'cubus-8-Graphit' },
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-Maron.png' ,colorTitle:'cubus-8-Maron' },
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-MotivMaMaufEtch.png' ,colorTitle:'cubus-8-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-MotivMaMaufExtraweiss.png' ,colorTitle:'cubus-8-MotivMaMaufExtraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-Quarz.png' ,colorTitle:'cubus-8-Quarz' },
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-Schilf.png' ,colorTitle:'cubus-8-Schilf' },
+      {imgUrl:'img/GlassDesign/cubus-8/cubus-8-Whiteline.png' ,colorTitle:'cubus-8-Whiteline' },
+    ],
   ]
   document.getElementById('colors').innerHTML ='';
   switch (title) {
@@ -465,6 +503,30 @@ function openModal(event ,title) {
     break;
     case "cubus-4":
       colors[3].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "cubus-5":
+      colors[4].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "cubus-8":
+      colors[7].forEach((item)=>{
         document.getElementById('colors').innerHTML +=
         `
          <div onclick="chengDesignColor(event , '${item.colorTitle}')">
