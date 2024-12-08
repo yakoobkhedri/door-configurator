@@ -350,35 +350,84 @@ document.getElementById('imageInput').addEventListener('change', function (event
 // design color modal
 
 function openModal(event ,title) {
-
+  document.getElementById('Glasdesign').src = event.target.src;
   let colors = [
     [
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-Blackline.png' ,colorTitle:'Blackline' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-DarkGrey.png' ,colorTitle:'DarkGrey' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-Etch.png' ,colorTitle:'Etch' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-Extraweiss.png' ,colorTitle:'Extraweiss' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-FlaecheDarkGrey.png' ,colorTitle:'FlaecheDarkGrey' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-FlaecheExtraweiss.png' ,colorTitle:'FlaecheExtraweiss' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-FlaecheFloatGrey.png' ,colorTitle:'FlaecheFloatGrey' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-FlaechEtch.png' ,colorTitle:'FlaechEtch' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-FloatGrey.png' ,colorTitle:'FloatGrey' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-Graphit.png' ,colorTitle:'Graphit' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-Maron.png' ,colorTitle:'Maron' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-MotivMaMaufEtch.png' ,colorTitle:'MotivMaMaufEtch' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-MotivMaMaufExtraweiss.png' ,colorTitle:'MotivMaMaufExtraweiss' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-Quarz.png' ,colorTitle:'Quarz' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-Schilf.png' ,colorTitle:'Schilf' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-Whiteline.png' ,colorTitle:'Whiteline' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-Blackline.png' ,colorTitle:'cubus-1-Blackline' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-DarkGrey.png' ,colorTitle:'cubus-1-DarkGrey' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-Etch.png' ,colorTitle:'cubus-1-Etch' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-Extraweiss.png' ,colorTitle:'cubus-1-Extraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-FlaecheDarkGrey.png' ,colorTitle:'cubus-1-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-FlaecheEtch.png' ,colorTitle:'cubus-1-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-FlaecheExtraweiss.png' ,colorTitle:'cubus-1-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-FlaecheFloatGrey.png' ,colorTitle:'cubus-1-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-FloatGrey.png' ,colorTitle:'cubus-1-FloatGrey' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-Graphit.png' ,colorTitle:'cubus-1-Graphit' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-Maron.png' ,colorTitle:'cubus-1-Maron' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-MotivMaMaufEtch.png' ,colorTitle:'cubus-1-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-MotivMaMaufExtraweiss.png' ,colorTitle:'cubus-1-MotivMaMaufExtraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-Quarz.png' ,colorTitle:'cubus-1-Quarz' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-Schilf.png' ,colorTitle:'cubus-1-Schilf' },
+      {imgUrl:'img/GlassDesign/cubus-1/cubus-1-Whiteline.png' ,colorTitle:'cubus-1-Whiteline' },
     ],
     [
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-Extraweiss.png' ,colorTitle:'Extraweiss' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-FlaecheDarkGrey.png' ,colorTitle:'FlaecheDarkGrey' },
-      {imgUrl:'img/GlassDesign/cubs/cubus-1-FlaecheExtraweiss.png' ,colorTitle:'FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-Blackline.png' ,colorTitle:'cubus-2-Blackline' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-DarkGrey.png' ,colorTitle:'cubus-2-DarkGrey' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-Etch.png' ,colorTitle:'cubus-2-Etch' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-Extraweiss.png' ,colorTitle:'cubus-2-Extraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-FlaecheDarkGrey.png' ,colorTitle:'cubus-2-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-FlaecheEtch.png' ,colorTitle:'cubus-2-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-FlaecheExtraweiss.png' ,colorTitle:'cubus-2-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-FlaecheFloatGrey.png' ,colorTitle:'cubus-2-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-FloatGrey.png' ,colorTitle:'cubus-2-FloatGrey' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-Graphit.png' ,colorTitle:'cubus-2-Graphit' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-Maron.png' ,colorTitle:'cubus-2-Maron' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-MotivMaMaufEtch.png' ,colorTitle:'cubus-2-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-MotivMaMaufExtraweiss.png' ,colorTitle:'cubus-2-MotivMaMaufExtraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-Quarz.png' ,colorTitle:'cubus-2-Quarz' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-Schilf.png' ,colorTitle:'cubus-2-Schilf' },
+      {imgUrl:'img/GlassDesign/cubus-2/cubus-2-Whiteline.png' ,colorTitle:'cubus-2-Whiteline' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-Blackline.png' ,colorTitle:'cubus-3-Blackline' },
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-DarkGrey.png' ,colorTitle:'cubus-3-DarkGrey' },
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-Etch.png' ,colorTitle:'cubus-3-Etch' },
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-Extraweiss.png' ,colorTitle:'cubus-3-Extraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-FlaecheDarkGrey.png' ,colorTitle:'cubus-3-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-FlaecheEtch.png' ,colorTitle:'cubus-3-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-FlaecheExtraweiss.png' ,colorTitle:'cubus-3-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-FlaecheFloatGrey.png' ,colorTitle:'cubus-3-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-FloatGrey.png' ,colorTitle:'cubus-3-FloatGrey' },
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-Graphit.png' ,colorTitle:'cubus-3-Graphit' },
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-Maron.png' ,colorTitle:'cubus-3-Maron' },
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-MotivMaMaufEtch.png' ,colorTitle:'cubus-3-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-MotivMaMaufExtraweiss.png' ,colorTitle:'cubus-3-MotivMaMaufExtraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-Quarz.png' ,colorTitle:'cubus-3-Quarz' },
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-Schilf.png' ,colorTitle:'cubus-3-Schilf' },
+      {imgUrl:'img/GlassDesign/cubus-3/cubus-3-Whiteline.png' ,colorTitle:'cubus-3-Whiteline' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-Blackline.png' ,colorTitle:'cubus-4-Blackline' },
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-DarkGrey.png' ,colorTitle:'cubus-4-DarkGrey' },
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-Etch.png' ,colorTitle:'cubus-4-Etch' },
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-Extraweiss.png' ,colorTitle:'cubus-4-Extraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-FlaecheDarkGrey.png' ,colorTitle:'cubus-4-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-FlaecheEtch.png' ,colorTitle:'cubus-4-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-FlaecheExtraweiss.png' ,colorTitle:'cubus-4-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-FlaecheFloatGrey.png' ,colorTitle:'cubus-4-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-FloatGrey.png' ,colorTitle:'cubus-4-FloatGrey' },
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-Graphit.png' ,colorTitle:'cubus-4-Graphit' },
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-Maron.png' ,colorTitle:'cubus-4-Maron' },
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-MotivMaMaufEtch.png' ,colorTitle:'cubus-4-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-MotivMaMaufExtraweiss.png' ,colorTitle:'cubus-4-MotivMaMaufExtraweiss' },
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-Quarz.png' ,colorTitle:'cubus-4-Quarz' },
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-Schilf.png' ,colorTitle:'cubus-4-Schilf' },
+      {imgUrl:'img/GlassDesign/cubus-4/cubus-4-Whiteline.png' ,colorTitle:'cubus-4-Whiteline' },
     ],
   ]
   document.getElementById('colors').innerHTML ='';
   switch (title) {
-    case "cubs":
+    case "cubus-1":
       colors[0].forEach((item)=>{
        document.getElementById('colors').innerHTML +=
        `
@@ -390,8 +439,32 @@ function openModal(event ,title) {
         `
      })
     break;
-    case "cubs2":
+    case "cubus-2":
       colors[1].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "cubus-3":
+      colors[2].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "cubus-4":
+      colors[3].forEach((item)=>{
         document.getElementById('colors').innerHTML +=
         `
          <div onclick="chengDesignColor(event , '${item.colorTitle}')">
