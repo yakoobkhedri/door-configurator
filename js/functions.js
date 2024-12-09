@@ -517,6 +517,42 @@ function openModal(event ,title) {
       {imgUrl:'img/GlassDesign/cubus-12/cubus-12-Schilf.png' ,colorTitle:'cubus-12-Schilf' },
       {imgUrl:'img/GlassDesign/cubus-12/cubus-12-Whiteline.png' ,colorTitle:'cubus-12-Whiteline' },
     ],
+    [
+      {imgUrl:'img/GlassDesign/Cuts/cutes-Blackline.png' ,colorTitle:'cutes-Blackline' },
+      {imgUrl:'img/GlassDesign/Cuts/cutes-DarkGrey.png' ,colorTitle:'cutes-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Cuts/cutes-Etch.png' ,colorTitle:'cutes-Etch' },
+      {imgUrl:'img/GlassDesign/Cuts/cutes-Extraweiss.png' ,colorTitle:'cutes-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Cuts/cutes-FloatGrey.png' ,colorTitle:'cutes-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Cuts/cutes-Graphit.png' ,colorTitle:'cutes-Graphit' },
+      {imgUrl:'img/GlassDesign/Cuts/cutes-Maron.png' ,colorTitle:'cutes-Maron' },
+      {imgUrl:'img/GlassDesign/Cuts/cutes-Quarz.png' ,colorTitle:'cutes-Quarz' },
+      {imgUrl:'img/GlassDesign/Cuts/cutes-Schilf.png' ,colorTitle:'cutes-Schilf' },
+      {imgUrl:'img/GlassDesign/Cuts/cutes-Whiteline.png' ,colorTitle:'cutes-Whiteline' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Curves/curves-DarkGrey.png' ,colorTitle:'curves-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Curves/curves-Etch.png' ,colorTitle:'curves-Etch' },
+      {imgUrl:'img/GlassDesign/Curves/curves-Extraweiss.png' ,colorTitle:'curves-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Curves/curves-FlaecheDarkGrey.png' ,colorTitle:'curves-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Curves/curves-FlaecheEtch.png' ,colorTitle:'curves-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Curves/curves-FlaecheExtraweiss.png' ,colorTitle:'curves-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Curves/curves-FlaecheFloatGrey.png' ,colorTitle:'curves-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Curves/curves-FloatGrey.png' ,colorTitle:'curves-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Curves/curves-MotivMaMaufEtch.png' ,colorTitle:'curves-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Curves/curves-MotivMaMaufExtraweiss.png' ,colorTitle:'curves-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Curves-2/curves-2-DarkGrey.png' ,colorTitle:'curves-2-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Curves-2/curves-2-Etch.png' ,colorTitle:'curves-2-Etch' },
+      {imgUrl:'img/GlassDesign/Curves-2/curves-2-Extraweiss.png' ,colorTitle:'curves-2-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Curves-2/curves-2-FlaecheDarkGrey.png' ,colorTitle:'curves-2-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Curves-2/curves-2-FlaecheEtch.png' ,colorTitle:'curves-2-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Curves-2/curves-2-FlaecheExtraweiss.png' ,colorTitle:'curves-2-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Curves-2/curves-2-FlaecheFloatGrey.png' ,colorTitle:'curves-2-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Curves-2/curves-2-FloatGrey.png' ,colorTitle:'curves-2-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Curves-2/curves-2-MotivMaMaufEtch.png' ,colorTitle:'curves-2-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Curves-2/curves-2-MotivMaMaufExtraweiss.png' ,colorTitle:'curves-2-MotivMaMaufExtraweiss' },
+    ],
   ]
   document.getElementById('colors').innerHTML ='';
   switch (title) {
@@ -618,6 +654,42 @@ function openModal(event ,title) {
     break;
     case "cubus-12":
       colors[11].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "cuts":
+      colors[12].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "curves":
+      colors[13].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "curves-2":
+      colors[14].forEach((item)=>{
         document.getElementById('colors').innerHTML +=
         `
          <div onclick="chengDesignColor(event , '${item.colorTitle}')">
