@@ -553,6 +553,28 @@ function openModal(event ,title) {
       {imgUrl:'img/GlassDesign/Curves-2/curves-2-MotivMaMaufEtch.png' ,colorTitle:'curves-2-MotivMaMaufEtch' },
       {imgUrl:'img/GlassDesign/Curves-2/curves-2-MotivMaMaufExtraweiss.png' ,colorTitle:'curves-2-MotivMaMaufExtraweiss' },
     ],
+    [
+      {imgUrl:'img/GlassDesign/ER-13/ER13-Extraweiss.png' ,colorTitle:'ER-13-Extraweiss' },
+      {imgUrl:'img/GlassDesign/ER-13/ER13-FlaecheDarkGrey.png' ,colorTitle:'ER-13-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/ER-13/ER13-FlaecheEtch.png' ,colorTitle:'ER-13-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/ER-13/ER13-FlaecheExtraweiss.png' ,colorTitle:'ER-13-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/ER-13/ER13-FlaecheFloatGrey.png' ,colorTitle:'ER-13-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/ER-13/ER13-Whiteline.png' ,colorTitle:'ER-13-Whiteline' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/ER-14/ER14-DarkGrey.png' ,colorTitle:'ER-14-DarkGrey' },
+      {imgUrl:'img/GlassDesign/ER-14/ER14-Etch.png' ,colorTitle:'ER-14-Etch' },
+      {imgUrl:'img/GlassDesign/ER-14/ER14-Extraweiss.png' ,colorTitle:'ER-14-Extraweiss' },
+      {imgUrl:'img/GlassDesign/ER-14/ER14-FlaecheDarkGrey.png' ,colorTitle:'ER-14-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/ER-14/ER14-FlaecheEtch.png' ,colorTitle:'ER-14-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/ER-14/ER14-FlaecheExtraweiss.png' ,colorTitle:'ER-14-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/ER-14/ER14-FlaecheFloatGrey.png' ,colorTitle:'ER-14-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/ER-14/ER14-FloatGrey.png' ,colorTitle:'ER-14-FloatGrey' },
+      {imgUrl:'img/GlassDesign/ER-14/ER14-Grau.png' ,colorTitle:'ER-14-Grau' },
+      {imgUrl:'img/GlassDesign/ER-14/ER14-MotivMaMaufEtch.png' ,colorTitle:'ER-14-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/ER-14/ER14-MotivMaMaufExtraweiss.png' ,colorTitle:'ER-14-MotivMaMaufExtraweiss' },
+      {imgUrl:'img/GlassDesign/ER-14/ER14-RilleMatt.png' ,colorTitle:'ER-14-RilleMatt' },
+    ],
   ]
   document.getElementById('colors').innerHTML ='';
   switch (title) {
@@ -690,6 +712,30 @@ function openModal(event ,title) {
     break;
     case "curves-2":
       colors[14].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "ER13":
+      colors[15].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "ER14":
+      colors[16].forEach((item)=>{
         document.getElementById('colors').innerHTML +=
         `
          <div onclick="chengDesignColor(event , '${item.colorTitle}')">
