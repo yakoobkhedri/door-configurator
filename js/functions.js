@@ -575,6 +575,46 @@ function openModal(event ,title) {
       {imgUrl:'img/GlassDesign/ER-14/ER14-MotivMaMaufExtraweiss.png' ,colorTitle:'ER-14-MotivMaMaufExtraweiss' },
       {imgUrl:'img/GlassDesign/ER-14/ER14-RilleMatt.png' ,colorTitle:'ER-14-RilleMatt' },
     ],
+    [
+      {imgUrl:'img/GlassDesign/ER-71/ER71-FlaecheDarkGrey.png' ,colorTitle:'ER-71-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/ER-71/ER71-FlaecheEtch.png' ,colorTitle:'ER-71-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/ER-71/ER71-FlaecheExtraweiss.png' ,colorTitle:'ER-71-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/ER-71/ER71-FlaecheFloatGrey.png' ,colorTitle:'ER-71-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/ER-71/ER71-RilleMatt.png' ,colorTitle:'ER-71-RilleMatt' },
+      {imgUrl:'img/GlassDesign/ER-71/ER71-Whiteline.png' ,colorTitle:'ER-71-Whiteline' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/ER-71-R/ER71-R-FlaecheDarkGrey.png' ,colorTitle:'ER-71-R-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/ER-71-R/ER71-R-FlaecheEtch.png' ,colorTitle:'ER-71-R-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/ER-71-R/ER71-R-FlaecheExtraweiss.png' ,colorTitle:'ER-71-R-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/ER-71-R/ER71-R-FlaecheFloatGrey.png' ,colorTitle:'ER-71-R-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/ER-71-R/ER71-R-RilleMatt.png' ,colorTitle:'ER-71-R-RilleMatt' },
+      {imgUrl:'img/GlassDesign/ER-71-R/ER71-R-Whiteline.png' ,colorTitle:'ER-71-R-Whiteline' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/ER-71-2flg/ER71-2flg-FlaecheDarkGrey.png' ,colorTitle:'ER-71-2flg-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/ER-71-2flg/ER71-2flg-FlaecheEtch.png' ,colorTitle:'ER-71-2flg-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/ER-71-2flg/ER71-2flg-FlaecheExtraweiss.png' ,colorTitle:'ER-71-2flg-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/ER-71-2flg/ER71-2flg-FlaecheFloatGrey.png' ,colorTitle:'ER-71-2flg-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/ER-71-2flg/ER71-2flg-RilleMatt.png' ,colorTitle:'ER-71-2flg-RilleMatt' },
+      {imgUrl:'img/GlassDesign/ER-71-2flg/ER71-2flg-Whiteline.png' ,colorTitle:'ER-71-2flg-Whiteline' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/ER-88/ER88-FlaecheDarkGrey.png' ,colorTitle:'ER-88-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/ER-88/ER88-FlaecheEtch.png' ,colorTitle:'ER-88-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/ER-88/ER88-FlaecheExtraweiss.png' ,colorTitle:'ER-88-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/ER-88/ER88-FlaecheFloatGrey.png' ,colorTitle:'ER-88-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/ER-88/ER88-RilleMatt.png' ,colorTitle:'ER-88-RilleMatt' },
+      {imgUrl:'img/GlassDesign/ER-88/ER88-Whiteline.png' ,colorTitle:'ER-88-Whiteline' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/ER-88-R/ER88-R-FlaecheDarkGrey.png' ,colorTitle:'ER-88-R-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/ER-88-R/ER88-R-FlaecheEtch.png' ,colorTitle:'ER-88-R-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/ER-88-R/ER88-R-FlaecheExtraweiss.png' ,colorTitle:'ER-88-R-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/ER-88-R/ER88-R-FlaecheFloatGrey.png' ,colorTitle:'ER-88-R-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/ER-88-R/ER88-R-RilleMatt.png' ,colorTitle:'ER-88-R-RilleMatt' },
+      {imgUrl:'img/GlassDesign/ER-88-R/ER88-R-Whiteline.png' ,colorTitle:'ER-88-R-Whiteline' },
+    ],
   ]
   document.getElementById('colors').innerHTML ='';
   switch (title) {
@@ -736,6 +776,66 @@ function openModal(event ,title) {
     break;
     case "ER14":
       colors[16].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "ER71":
+      colors[17].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "ER71R":
+      colors[18].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "ER712flg":
+      colors[19].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "ER88":
+      colors[20].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "ER88-R":
+      colors[21].forEach((item)=>{
         document.getElementById('colors').innerHTML +=
         `
          <div onclick="chengDesignColor(event , '${item.colorTitle}')">
