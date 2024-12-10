@@ -19,52 +19,32 @@ function chengDesignColor(event, name) {
 // dastgire design
 
 document.getElementById("dastgire").innerHTML = `
-          <svg data-name="Layer 2"
-                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.98 21.5">
-                                        <defs>
-                                            <style>
-                                                .cls-1 {
-                                                    stroke: #020202;
-                                                    stroke-miterlimit: 10;
-                                                    stroke-width: .16px;
-                                                }
-    
-                                                .cls-1,
-                                                .cls-2 {
-                                                    fill: #292e37;
-                                                }
-                                            </style>
-                                        </defs>
-                                        <g id="Layer_1-2" data-name="Layer 1">
-                                            <g id="Layer_1-2" data-name="Layer 1-2">
-                                                <g>
-                                                    <rect class="cls-1" x="9.98" y=".08" width="40.67" height="2.44" rx=".4"
-                                                        ry=".4" />
-                                                    <rect class="cls-1" x="3.75" y="1.3" width="49.88" height="20.13"
-                                                        rx=".63" ry=".63" />
-                                                    <rect class="cls-1" x=".08" y="7.67" width="3.59" height="7.39" />
-                                                    <path class="cls-1"
-                                                        d="M1.51,5.43H3.67v2.16H1.03v-1.67c0-.27,.22-.48,.48-.48h0Z" />
-                                                    <path class="cls-1"
-                                                        d="M1.03,15.13H3.67v2.16H1.51c-.27,0-.48-.22-.48-.48v-1.67h0Z" />
-                                                    <g>
-                                                        <circle cx="26.89" cy="10.87" r="4.33" />
-                                                        <circle class="cls-2" cx="26.89" cy="10.87" r="4.16" />
-                                                    </g>
-                                                    <g>
-                                                        <path class="cls-1"
-                                                            d="M28.4,8.34h35.7c.44,0,.79,.36,.79,.79v3.24c0,.44-.36,.79-.79,.79H28.4v-4.83h0Z" />
-                                            <rect class="cls-1" x="25.59" y="8.34" width="2.82" height="4.83" />
-                                     </g>
-                                </g>
-                            </g>
-                        </g>
-                </svg>
+        <svg class="w-10 ms-2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.81 60.23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c1c1c1;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: .33px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <circle class="cls-1" cx="4.4" cy="9.88" r="4.24"/>
+      <circle class="cls-1" cx="4.4" cy="52.54" r="4.24"/>
+      <rect class="cls-1" x="1.81" y=".16" width="5.2" height="59.9" rx="2.6" ry="2.6"/>
+    </g>
+  </g>
+</svg>
           `;
 
-function chengDastgire(event, name) {
-  $("#dastgiredesign").attr("src", event.target.src);
+function chengDastgire(e,w,h, name) {
   document.getElementById("dastgireLabel").innerText = name;
+  document.getElementById('dastgiredesign').style.width = w + 'px';
+  document.getElementById('dastgiredesign').style.height = h + 'px';
+  document.getElementById('dastgiredesign').src = e.querySelector('img').src;
 
   switch (name) {
     case "one":
@@ -328,9 +308,9 @@ function chengDastgire(event, name) {
 </svg>
                 `;
       break;
-    case "rondo":
+    case "porto":
       document.getElementById("dastgire").innerHTML = `
-<svg class="w-10" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.81 60.23">
+<svg class="w-10 ms-2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.81 60.23">
   <defs>
     <style>
       .cls-1 {
@@ -351,9 +331,9 @@ function chengDastgire(event, name) {
 </svg>
                 `;
       break;
-    case "porto":
+    case "rondo":
       document.getElementById("dastgire").innerHTML = `
-<svg class="w-10" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.81 57.72">
+<svg class="w-10 ms-2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5.81 57.72">
   <defs>
     <style>
       .cls-1 {
@@ -383,7 +363,7 @@ function chengDastgire(event, name) {
       break;
     case "cubo":
       document.getElementById("dastgire").innerHTML = `
-<svg class="w-10" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6.33 54.18">
+<svg class="w-10 ms-2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6.33 54.18">
   <defs>
     <style>
       .cls-1 {
@@ -413,7 +393,7 @@ function chengDastgire(event, name) {
       break;
     case "milaneckig":
       document.getElementById("dastgire").innerHTML = `
-<svg class="w-10" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6.86 55.06">
+<svg class="w-10 ms-2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6.86 55.06">
   <defs>
     <style>
       .cls-1 {
@@ -443,7 +423,7 @@ function chengDastgire(event, name) {
       break;
     case "milan":
       document.getElementById("dastgire").innerHTML = `
-<svg class="w-10" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 53.58">
+<svg class="w-10 ms-2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 53.58">
   <defs>
     <style>
       .cls-1 {
@@ -462,7 +442,7 @@ function chengDastgire(event, name) {
       break;
     case "dorma":
       document.getElementById("dastgire").innerHTML = `
-<svg class="w-10" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6.1 56.34">
+<svg class="w-10 ms-2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6.1 56.34">
   <defs>
     <style>
       .cls-1 {
@@ -599,28 +579,33 @@ function chengDastgire(event, name) {
 
 document.querySelectorAll(".lola").forEach((items) => {
   items.innerHTML = `
- <svg data-name="Layer 1"
-                              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.61 62.62">
-                              <defs>
-                                  <style>
-                                      .cls-1 {
-                                          fill: #292e37;
-                                          stroke: #020202;
-                                          stroke-miterlimit: 10;
-                                          stroke-width: .39px;
-                                      }
-                                  </style>
-                              </defs>
-                              <g id="Layer_1-2" data-name="Layer 1">
-                                  <g id="Layer_1-2" data-name="Layer 1-2">
-                                      <g>
-                                          <path class="cls-1"
-                                              d="M50.49,12.96V49.66h11.92v7.55c0,2.88-2.33,5.21-5.21,5.21H.2V.2H57.21c2.88,0,5.21,2.33,5.21,5.21v7.56h-11.92Z" />
-                                          <rect class="cls-1" x="51.23" y="13.84" width="11.18" height="34.93" />
-                                      </g>
-                                  </g>
-                              </g>
-                          </svg>
+   <svg data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61.86 51.06">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: .35px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #c1c1c1;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-width: .34px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Layer_1-2" data-name="Layer 1-2">
+      <g>
+        <rect class="cls-1" x="51.81" y="9.56" width="9.87" height="31.94"/>
+        <path class="cls-2" d="M51.09,8.64V42.42h10.59v1.87c0,3.64-2.95,6.6-6.6,6.6H11.1c-3.35,0-6.17-2.51-6.55-5.84L.21,7.52C-.24,3.61,2.82,.17,6.77,.17H55.08c3.64,0,6.6,2.95,6.6,6.6v1.87h-10.59Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
 `;
 });
 
@@ -819,7 +804,8 @@ function changeSvgPosition() {
 
 function chengGlassColor(event, name, color) {
   //alert(design)
-  $("#GlasColor").attr("src", event.target.src);
+  // $("#GlasColor").attr("src", event.target.src);
+  document.getElementById('colorBox').style.backgroundColor = color;
   document.getElementById("glasartColorLabel").innerText = name;
   document.getElementById("GlassColor").style.backgroundColor = color;
 

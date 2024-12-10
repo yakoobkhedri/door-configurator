@@ -138,39 +138,39 @@
                             <input type="number" class="form-control height-input" name="height" id="hhh" />
                         </div>
                         <!-- Breite Seitenteil links -->
-                        <div class="d-flex flex-column gap-2">
+                        <div class="d-none flex-column gap-2">
                             <p id="textaa" style="display:none">Breite Seitenteil links in mm</br> (min. 300mm max.
                                 1200mm)</p>
                             <input type="number" style="display:none" class="form-control width-input" name="widthFL"
                                 id="ww" />
                         </div>
                         <!-- Türbreite links -->
-                        <div class="d-flex flex-column gap-2">
+                        <div class="d-none flex-column gap-2">
                             <p id="textaa" style="display:none">Türbreite in mm</br> (min. 300mm max. 1200mm)</p>
                             <input type="number" style="display:none" class="form-control width-input" name="width"
                                 id="w" />
                         </div>
                         <!-- Türbreite rechts -->
-                        <div class="d-flex flex-column gap-2">
+                        <div class="d-none flex-column gap-2">
                             <p id="textaa" style="display:none">Türbreite rechts in mm</br> (min. 300mm max. 1200mm)</p>
                             <input style="display:none" type="number" class="form-control width-input" name="widthh"
                                 id="www" />
                         </div>
                         <!-- Breite Seitenteil rechts -->
-                        <div class="d-flex flex-column gap-2">
+                        <div class="d-none flex-column gap-2">
                             <p id="textaa" style="display:none">Breite Seitenteil rechts in mm</br> (min.300mm max.
                                 1200mm)</p>
                             <input type="number" style="display:none" class="form-control width-input" name="widthFR"
                                 id="wwww" />
                         </div>
                         <!-- Türhöhe -->
-                        <div class="d-flex flex-column gap-2">
+                        <div class="d-none flex-column gap-2">
                             <p id="textaa2" style="display:none">Türhöhe in mm</br> (min. 1200mm max. 3000mm)</p>
                             <input style="display:none" type="number" class="form-control height-input" name="height"
                                 id="h" value="2000" />
                         </div>
                         <!--Griffsitz UKT  display:none  -->
-                        <div class="d-flex flex-column gap-2" id='Tür_Griff_DIN_von_unten'>
+                        <div class="d-none flex-column gap-2" id='Tür_Griff_DIN_von_unten'>
                             <div class="d-flex justify-content-between align-items-center">
                                 <label style="display:none">Griffsitz von Unterkante Tür </label>
                             </div>
@@ -180,30 +180,30 @@
                         <!--Griffsitz UKT  display:none  -->
                         <!--lola design-->
                         <div class="p-3">
-                            <p> lola Design</p>
+                            <p class="fw-bold"> lola Design</p>
                             <div class="d-flex justify-content-between gap-3">
-                                <a data-bs-toggle="modal" data-bs-target="#lolaDesign">
-                                    <img id='loladesign' src="img/lola/lola.PNG" class="slider-image w-100" />
-                                    <br><label id="lolaLabel" for="Glasdesign">lola</label>
-                                    <br><br>
+                                <a data-bs-toggle="modal" data-bs-target="#lolaDesign" class="w-100 text-dark text-decoration-none">
+                                    <img id='loladesign' src="img/lola/piatto.png" class="slider-image mb-3" width="165" height="165" />
+                                    <label id="lolaLabel" for="Glasdesign" class="d-block">piatto</label>
                                 </a>
                             </div>
                         </div>
                         <!--dastgire design-->
                         <div class="p-3">
-                            <p> dastgire Design</p>
+                            <p class="fw-bold"> dastgire Design</p>
                             <div class="d-flex justify-content-between gap-3">
-                                <a data-bs-toggle="modal" data-bs-target="#dastgireDesign">
-                                    <img id='dastgiredesign' src="img/Dastgire/one.PNG" class="slider-image w-100" />
-                                    <br><label id="dastgireLabel" for="Glasdesign">one</label>
-                                    <br><br>
+                                <a data-bs-toggle="modal" data-bs-target="#dastgireDesign" class="w-100 text-dark">
+                                    <div class="d-flex align-items-center justify-content-center w-165 h-165">
+                                        <img width="12" height="90" id='dastgiredesign' src="img/Dastgire/porto.png" class="slider-image mb-3 d-block mx-auto" />
+                                    </div>
+                                    <label id="dastgireLabel" for="Glasdesign">porto</label>
                                 </a>
                             </div>
                         </div>
                         <!--Griffsitz UKT-->
                         <div class="d-flex flex-column gap-2">
                             <label>Griffsitz von Unterkante Tür in mm <br> (min.500mm max.1350mm)</label>
-                            <input onchange="changeSvgPosition()" type="number" value="1050" class="form-control"
+                            <input onchange="changeSvgPosition()" type="number" max="1120" min="1010" value="1050" class="form-control"
                                 name="Griff_AKG_Mass" id="GoM" />
                         </div>
                         <div id="MaßeStange" class="flex-column gap-2 d-none">
@@ -212,35 +212,34 @@
                         </div>
                         <!--Glasstärke-->
                         <!--Metallfarbe-->
-                        <div class="pt-5 pb-5">
+                        <div>
                             <div class="p-3">
-                                <p> Farbe</p>
+                                <p class="fw-bold"> Farbe</p>
                                 <div class="d-flex justify-content-between gap-3">
-                                    <a data-bs-toggle="modal" data-bs-target="#Schloss">
-                                        <img id='MetallFarbee' src="img/MetallFarbe/Black.jpg" class="slider-image"
-                                            width="150" />
-                                        <br><label id="metallfarbeLabel" for="MetallFarbee">RAL 7021 Schwarzgrau</label>
+                                    <a data-bs-toggle="modal" data-bs-target="#Schloss" class="w-100 text-dark">
+                                        <img id='MetallFarbee' src="img/MetallFarbe/Black.jpg" class="slider-image mb-3"
+                                        width="165" height="200" />
+                                        <label id="metallfarbeLabel" for="MetallFarbee">RAL 7021 Schwarzgrau</label>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <!--Glasart-->
                         <div class="p-3">
-                            <p> Glasart</p>
+                            <p class="fw-bold"> Glasart</p>
                             <div class="d-flex justify-content-between gap-3">
-                                <a data-bs-toggle="modal" data-bs-target="#galleryModalGlasart">
-                                    <img id='Glasartee' src="img/Glasart/ESG_Klar.jpg" class="slider-image"
+                                <a data-bs-toggle="modal" data-bs-target="#galleryModalGlasart" class="text-dark">
+                                    <img id='Glasartee' src="img/Glasart/ESG_Klar.jpg" class="slider-image mb-3 d-block"
                                         width="150" />
-                                    <br><label id="glasartLabel" for="Glasartee">ESG klar</label>
-                                    <br><br>
+                                    <label id="glasartLabel" for="Glasartee">ESG klar</label>
                                 </a>
                             </div>
                         </div>
                         <!--upload Glasart design-->
                         <div class="p-3">
-                            <p> upload Glasart Design</p>
+                            <p class="fw-bold"> upload Glasart Design</p>
                             <div
-                                class="d-flex align-items-center gap-2 border rounded-2 overflow-hidden cursor position-relative">
+                                class="d-flex align-items-center gap-2 border rounded-1 overflow-hidden cursor position-relative">
                                 <input id="imageInput" type="file"
                                     class="opacity-0 cursor border-0 position-absolute w-100 h-100 top-0 bottom-0 end-0 start-0">
                                 <p class="mb-0 h-100 bg-gray p-2">open feil</p>
@@ -249,25 +248,24 @@
                         </div>
                         <!--Glasart design-->
                         <div class="p-3">
-                            <p> Glasart Design</p>
+                            <p class="fw-bold"> Glasart Design</p>
                             <div class="d-flex justify-content-between gap-3">
-                                <a data-bs-toggle="modal" data-bs-target="#galleryModalGlasartDesign">
-                                    <img id='Glasdesign' src="img/GlassDesign/cubus-1/cubus-1-model-door.png" class="slider-image" width="150"
-                                        height="207" />
-                                    <br><label id="glasartDesignLabel" for="Glasdesign">cubus-1</label>
-                                    <br><br>
+                                <a data-bs-toggle="modal" data-bs-target="#galleryModalGlasartDesign" class="text-dark w-100">
+                                    <img id='Glasdesign' src="img/GlassDesign/cubus-1/cubus-1-model-door.png" class="slider-image mb-3 d-block"
+                                    width="165" height="217" />
+                                    <label id="glasartDesignLabel" for="Glasdesign">cubus-1</label>
                                 </a>
                             </div>
                         </div>
                         <!--Glasart color-->
                         <div class="p-3">
-                            <p> Glasart color</p>
+                            <p class="fw-bold"> Glasart color</p>
                             <div class="d-flex justify-content-between gap-3">
-                                <a data-bs-toggle="modal" data-bs-target="#galleryModalGlasartColor">
-                                    <img id='GlasColor' src="img/MetallFarbe/Kupfer.jpg" class="slider-image"
-                                        width="150" height="207" />
-                                    <br><label id="glasartColorLabel" for="GlasColor">pink</label>
-                                    <br><br>
+                                <a data-bs-toggle="modal" data-bs-target="#galleryModalGlasartColor" class="text-dark w-100 text-decoration-none">
+                                    <!-- <img id='GlasColor' src="img/MetallFarbe/Kupfer.jpg" class="slider-image mb-3"
+                                     width="165" height="200" /> -->
+                                     <div id="colorBox" style="background-color: #553131;" class="w-165 h-165 mb-3"></div>
+                                    <label class="d-block" id="glasartColorLabel" for="GlasColor">brown</label>
                                 </a>
                             </div>
                         </div>
@@ -617,21 +615,21 @@
                                             alt="img" />
                                         <br><br><label for="img">ER-71-R</label>
                                     </div>
-                                    <div onclick="openModal(event , 'ER712flg')">
+                                    <!-- <div onclick="openModal(event , 'ER712flg')">
                                         <img src="img/GlassDesign/ER-71-2flg/" width="101" height="138"
                                             alt="img" />
                                         <br><br><label for="img">ER-71-2flg</label>
-                                    </div>
+                                    </div> -->
                                     <div onclick="openModal(event , 'ER88')">
                                         <img src="img/GlassDesign/ER-88/ER88-model.png" width="101" height="138"
                                             alt="img" />
                                         <br><br><label for="img">ER-88</label>
                                     </div>
-                                    <div onclick="openModal(event , 'ER88-R')">
+                                    <!-- <div onclick="openModal(event , 'ER88-R')">
                                         <img src="img/GlassDesign/ER-88-R/" width="101" height="138"
                                             alt="img" />
                                         <br><br><label for="img">ER-88-R</label>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -655,101 +653,139 @@
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel"
                                 aria-labelledby="home-tab">
-                                <div class="d-flex flex-wrap gap-4 pt-3">
+                                <div class="d-flex flex-wrap gap-4 pt-3 text-center fw-bold">
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/one.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'one')" />
-                                        <br><br><label for="ESG_klar">one</label>
+                                        <div onclick="chengDastgire(this,120,53,'one')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/one.PNG" alt="ESG Klar" class="w-80 h-36"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">one</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/two.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'two')" />
-                                        <br><br><label for="ESG_klar">two</label>
+                                        <div onclick="chengDastgire(this,90,90,'two')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/two.PNG" alt="ESG Klar" class="w-90 h-90"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">two</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/three.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'verona')" />
-                                        <br><br><label for="ESG_klar">verona</label>
+                                        <div onclick="chengDastgire(this,90,90,'verona')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/three.PNG" alt="ESG Klar" class="w-90 h-90"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">verona</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/four.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'palermo')" />
-                                        <br><br><label for="ESG_klar">palermo</label>
+                                        <div onclick="chengDastgire(this,90,90,'palermo')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/four.PNG" alt="ESG Klar" class="w-90 h-90"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">palermo</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/turin.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'turin')" />
-                                        <br><br><label for="ESG_klar">turin</label>
+                                        <div onclick="chengDastgire(this,90,90,'turin')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/turin.PNG" alt="ESG Klar" class="w-90 h-90"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">turin</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/genova.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'genova')" />
-                                        <br><br><label for="ESG_klar">genova</label>
+                                        <div onclick="chengDastgire(this,90,90,'genova')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/genova.PNG" alt="ESG Klar" class="w-90 h-90"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">genova</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/venedig.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'venedig')" />
-                                        <br><br><label for="ESG_klar">venedig</label>
+                                        <div onclick="chengDastgire(this,90,90,'venedig')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/venedig.PNG" alt="ESG Klar" class="w-90 h-90"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">venedig</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/como.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'como')" />
-                                        <br><br><label for="ESG_klar">como</label>
+                                        <div onclick="chengDastgire(this,90,90,'como')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/como.PNG" alt="ESG Klar" class="w-90 h-90"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">como</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/parma.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'parma')" />
-                                        <br><br><label for="ESG_klar">parma</label>
+                                        <div onclick="chengDastgire(this,48,90,'parma')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/parma.PNG" alt="ESG Klar" class="w-51 h-90"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">parma</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/griffi.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'griffi')" />
-                                        <br><br><label for="ESG_klar">griffi</label>
+                                        <div onclick="chengDastgire(this,90,90,'griffi')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/griffi.PNG" alt="ESG Klar" class="w-90 h-90"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">griffi</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/rondo.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'rondo')" />
-                                        <br><br><label for="ESG_klar">rondo</label>
+                                        <div onclick="chengDastgire(this,12,90,'rondo')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/rondo.PNG" alt="ESG Klar" class="w-12 h-90"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">rondo</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/porto.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'porto')" />
-                                        <br><br><label for="ESG_klar">porto</label>
+                                        <div onclick="chengDastgire(this,12,90,'porto')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/porto.PNG" alt="ESG Klar" class="w-12 h-90"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">porto</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/cubo.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'cubo')" />
-                                        <br><br><label for="ESG_klar">cubo</label>
+                                        <div onclick="chengDastgire(this,12,90,'cubo')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/cubo.PNG" alt="ESG Klar" class="w-12 h-90"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">cubo</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/milaneckig.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'milaneckig')" />
-                                        <br><br><label for="ESG_klar">milaneckig</label>
+                                        <div onclick="chengDastgire(this,12,90,'milaneckig')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/milaneckig.PNG" alt="ESG Klar" class="w-12 h-90"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">milaneckig</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/milan.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'milan')" />
-                                        <br><br><label for="ESG_klar">milan</label>
+                                        <div onclick="chengDastgire(this,12,90,'milan')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/milan.PNG" alt="ESG Klar" class="w-12 h-90"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">milan</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/dorma.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'dorma')" />
-                                        <br><br><label for="ESG_klar">dorma</label>
+                                        <div onclick="chengDastgire(this,12,90,'dorma')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/dorma.PNG" alt="ESG Klar" class="w-12 h-90"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">dorma</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/piatto.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'piatto')" />
-                                        <br><br><label for="ESG_klar">piatto</label>
+                                        <div onclick="chengDastgire(this,105,63,'piatto')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/piatto.PNG" alt="ESG Klar" class="w-90 h-56"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">piatto</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/arcos.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'arcos')" />
-                                        <br><br><label for="ESG_klar">arcos</label>
+                                        <div onclick="chengDastgire(this,105,63,'arcos')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/arcos.PNG" alt="ESG Klar" class="w-90 h-56"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">arcos</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/Dastgire/alpha.PNG" alt="ESG Klar"
-                                            onclick="chengDastgire(event,'alpha')" />
-                                        <br><br><label for="ESG_klar">alpha</label>
+                                        <div onclick="chengDastgire(this,105,63,'alpha')" class="cursor w-120 h-120 d-flex align-items-center justify-content-center">
+                                            <img id="ESG_Klar" src="img/Dastgire/alpha.PNG" alt="ESG Klar" class="w-90 h-56"
+                                             />
+                                        </div>
+                                        <label for="ESG_klar">alpha</label>
                                     </div>
                                 </div>
                             </div>
@@ -776,27 +812,27 @@
                                 aria-labelledby="home-tab">
                                 <div class="d-flex flex-wrap gap-4 pt-3">
                                     <div>
-                                        <img id="ESG_Klar" src="img/lola/lola.PNG" alt="ESG Klar"
+                                        <img id="ESG_Klar" src="img/lola/lola.PNG" alt="ESG Klar" width="120" height="120"
                                             onclick="chengLola(event,'lola')" />
                                         <br><br><label for="ESG_klar">lola</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/lola/junior.PNG" alt="ESG Klar"
+                                        <img id="ESG_Klar" src="img/lola/junior.PNG" alt="ESG Klar" width="120" height="120"
                                             onclick="chengLola(event,'junior')" />
                                         <br><br><label for="ESG_klar">junior</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/lola/piatto.PNG" alt="ESG Klar"
+                                        <img id="ESG_Klar" src="img/lola/piatto.PNG" alt="ESG Klar" width="120" height="120"
                                             onclick="chengLola(event,'piatto')" />
                                         <br><br><label for="ESG_klar">piatto</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/lola/arcos.PNG" alt="ESG Klar"
+                                        <img id="ESG_Klar" src="img/lola/arcos.PNG" alt="ESG Klar" width="120" height="120"
                                             onclick="chengLola(event,'arcos')" />
                                         <br><br><label for="ESG_klar">arcos</label>
                                     </div>
                                     <div>
-                                        <img id="ESG_Klar" src="img/lola/alpha.PNG" alt="ESG Klar"
+                                        <img id="ESG_Klar" src="img/lola/alpha.PNG" alt="ESG Klar" width="120" height="120"
                                             onclick="chengLola(event,'alpha')" />
                                         <br><br><label for="ESG_klar">alpha</label>
                                     </div>
@@ -826,7 +862,7 @@
                                 <div class="d-flex flex-wrap gap-4 pt-3">
                                     <div>
                                         <img id="ESG_Klar" src="img/MetallFarbe/Kupfer.jpg" width="101" height="138"
-                                            alt="ESG Klar" onclick="chengGlassColor(event,'pink','#532f2e')" />
+                                            alt="ESG Klar" onclick="chengGlassColor(event,'brown','#532f2e')" />
                                         <br><br><label for="ESG_klar">pink</label>
                                     </div>
                                     <div>
@@ -838,8 +874,8 @@
                                     <div>
                                         <img id="ESG_Klar" src="img/MetallFarbe/Perlgold.jpg" width="101"
                                             height="138" alt="ESG Klar"
-                                            onclick="chengGlassColor(event,'brown','#8e693c')" />
-                                        <br><br><label for="ESG_klar">brown</label>
+                                            onclick="chengGlassColor(event,'lightbrown','#8e693c')" />
+                                        <br><br><label for="ESG_klar">lightbrown</label>
                                     </div>
                                 </div>
                             </div>
@@ -864,7 +900,7 @@
                       <h1 id="globalModalLabel" class="modal-title fs-5"></h1>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div class="modal-body" id="globalModalBody">
+                  <div class="modal-body fw-bold fs-12" id="globalModalBody">
                       <div class="tab-content" id="myTabContent">
                           <div class="tab-pane fade show active" id="home" role="tabpanel"
                               aria-labelledby="home-tab">
