@@ -13,11 +13,11 @@ function changeSize() {
   size_h = size_h / 18;
   size_FH = size_FH / 18;
 
-  size_w = size_w / 15;
-  size_www = size_www / 15;
+  size_w = size_w / 19;
+  size_www = size_www / 19;
 
-  size_FL = size_FL / 15;
-  size_FR = size_FR / 15;
+  size_FL = size_FL / 19;
+  size_FR = size_FR / 19;
 
   size_hh = size_hh / 20;
   size_ww = size_ww / 10;
