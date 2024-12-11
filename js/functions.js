@@ -617,6 +617,42 @@ function openModal(event ,title) {
       {imgUrl:'img/GlassDesign/ER-88-R/ER88-R-RilleMatt.png' ,colorTitle:'ER-88-R-RilleMatt' },
       {imgUrl:'img/GlassDesign/ER-88-R/ER88-R-Whiteline.png' ,colorTitle:'ER-88-R-Whiteline' },
     ],
+    [
+      {imgUrl:'img/GlassDesign/Abila/Abila-DarkGrey.png' ,colorTitle:'Abila-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Abila/Abila-Etch.png' ,colorTitle:'Abila-Etch' },
+      {imgUrl:'img/GlassDesign/Abila/Abila-Extraweiss.png' ,colorTitle:'Abila-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Abila/Abila-FlaecheDarkGrey.png' ,colorTitle:'Abila-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Abila/Abila-FlaecheEtch.png' ,colorTitle:'Abila-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Abila/Abila-FlaecheExtraweiss.png' ,colorTitle:'Abila-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Abila/Abila-FlaecheFloatGrey.png' ,colorTitle:'Abila-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Abila/Abila-FloatGrey.png' ,colorTitle:'Abila-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Abila/Abila-MotivMaMaufEtch.png' ,colorTitle:'Abila-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Abila/Abila-MotivMaMaufExtraweiss.png' ,colorTitle:'Abila-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Aida/Aida-DarkGrey.png' ,colorTitle:'Aida-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Aida/Aida-Etch.png' ,colorTitle:'Aida-Etch' },
+      {imgUrl:'img/GlassDesign/Aida/Aida-Extraweiss.png' ,colorTitle:'Aida-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Aida/Aida-FlaecheDarkGrey.png' ,colorTitle:'Aida-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Aida/Aida-FlaecheEtch.png' ,colorTitle:'Aida-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Aida/Aida-FlaecheExtraweiss.png' ,colorTitle:'Aida-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Aida/Aida-FlaecheFloatGrey.png' ,colorTitle:'Aida-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Aida/Aida-FloatGrey.png' ,colorTitle:'Aida-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Aida/Aida-MotivMaMaufEtch.png' ,colorTitle:'Aida-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Aida/Aida-MotivMaMaufExtraweiss.png' ,colorTitle:'Aida-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Amara/Amara-DarkGrey.png' ,colorTitle:'Amara-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Amara/Amara-Etch.png' ,colorTitle:'Amara-Etch' },
+      {imgUrl:'img/GlassDesign/Amara/Amara-Extraweiss.png' ,colorTitle:'Amara-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Amara/Amara-FlaecheDarkGrey.png' ,colorTitle:'Amara-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Amara/Amara-FlaecheEtch.png' ,colorTitle:'Amara-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Amara/Amara-FlaecheExtraweiss.png' ,colorTitle:'Amara-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Amara/Amara-FlaecheFloatGrey.png' ,colorTitle:'Amara-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Amara/Amara-FloatGrey.png' ,colorTitle:'Amara-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Amara/Amara-MotivMaMaufEtch.png' ,colorTitle:'Amara-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Amara/Amara-MotivMaMaufExtraweiss.png' ,colorTitle:'Amara-MotivMaMaufExtraweiss' },
+    ],
   ]
   document.getElementById('colors').innerHTML ='';
   switch (title) {
@@ -838,6 +874,42 @@ function openModal(event ,title) {
     break;
     case "ER88-R":
       colors[21].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Abila":
+      colors[22].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Aida":
+      colors[23].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Amara":
+      colors[24].forEach((item)=>{
         document.getElementById('colors').innerHTML +=
         `
          <div onclick="chengDesignColor(event , '${item.colorTitle}')">
