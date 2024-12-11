@@ -713,6 +713,78 @@ function openModal(event ,title) {
       {imgUrl:'img/GlassDesign/Basic-02/Basic02-MotivMaMaufEtch.png' ,colorTitle:'Basic-02-MotivMaMaufEtch' },
       {imgUrl:'img/GlassDesign/Basic-02/Basic02-MotivMaMaufExtraweiss.png' ,colorTitle:'Basic-02-MotivMaMaufExtraweiss' },
     ],
+    [
+      {imgUrl:'img/GlassDesign/Basic-03/Basic03-DarkGrey.png' ,colorTitle:'Basic-03-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Basic-03/Basic03-Etch.png' ,colorTitle:'Basic-03-Etch' },
+      {imgUrl:'img/GlassDesign/Basic-03/Basic03-Extraweiss.png' ,colorTitle:'Basic-03-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Basic-03/Basic03-FlaecheDarkGrey.png' ,colorTitle:'Basic-03-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Basic-03/Basic03-FlaecheEtch.png' ,colorTitle:'Basic-03-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Basic-03/Basic03-FlaecheExtraweiss.png' ,colorTitle:'Basic-03-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Basic-03/Basic03-FlaecheFloatGrey.png' ,colorTitle:'Basic-03-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Basic-03/Basic03-FloatGrey.png' ,colorTitle:'Basic-03-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Basic-03/Basic03-MotivMaMaufEtch.png' ,colorTitle:'Basic-03-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Basic-03/Basic03-MotivMaMaufExtraweiss.png' ,colorTitle:'Basic-03-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Basic-08/Basic08-DarkGrey.png' ,colorTitle:'Basic-08-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Basic-08/Basic08-Etch.png' ,colorTitle:'Basic-08-Etch' },
+      {imgUrl:'img/GlassDesign/Basic-08/Basic08-Extraweiss.png' ,colorTitle:'Basic-08-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Basic-08/Basic08-FlaecheDarkGrey.png' ,colorTitle:'Basic-08-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Basic-08/Basic08-FlaecheEtch.png' ,colorTitle:'Basic-08-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Basic-08/Basic08-FlaecheExtraweiss.png' ,colorTitle:'Basic-08-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Basic-08/Basic08-FlaecheFloatGrey.png' ,colorTitle:'Basic-08-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Basic-08/Basic08-FloatGrey.png' ,colorTitle:'Basic-08-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Basic-08/Basic08-MotivMaMaufEtch.png' ,colorTitle:'Basic-08-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Basic-08/Basic08-MotivMaMaufExtraweiss.png' ,colorTitle:'Basic-08-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Fasi/Fasi-DarkGrey.png' ,colorTitle:'Fasi-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Fasi/Fasi-Etch.png' ,colorTitle:'Fasi-Etch' },
+      {imgUrl:'img/GlassDesign/Fasi/Fasi-Extraweiss.png' ,colorTitle:'Fasi-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Fasi/Fasi-FlaecheDarkGrey.png' ,colorTitle:'Fasi-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Fasi/Fasi-FlaecheEtch.png' ,colorTitle:'Fasi-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Fasi/Fasi-FlaecheExtraweiss.png' ,colorTitle:'Fasi-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Fasi/Fasi-FlaecheFloatGrey.png' ,colorTitle:'Fasi-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Fasi/Fasi-FloatGrey.png' ,colorTitle:'Fasi-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Fasi/Fasi-MotivMaMaufEtch.png' ,colorTitle:'Fasi-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Fasi/Fasi-MotivMaMaufExtraweiss.png' ,colorTitle:'Fasi-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Cafe-2/Cafe2-DarkGrey.png' ,colorTitle:'Cafe-2-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Cafe-2/Cafe2-Etch.png' ,colorTitle:'Cafe-2-Etch' },
+      {imgUrl:'img/GlassDesign/Cafe-2/Cafe2-Extraweiss.png' ,colorTitle:'Cafe-2-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Cafe-2/Cafe2-FlaecheDarkGrey.png' ,colorTitle:'Cafe-2-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Cafe-2/Cafe2-FlaecheEtch.png' ,colorTitle:'Cafe-2-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Cafe-2/Cafe2-FlaecheExtraweiss.png' ,colorTitle:'Cafe-2-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Cafe-2/Cafe2-FlaecheFloatGrey.png' ,colorTitle:'Cafe-2-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Cafe-2/Cafe2-FloatGrey.png' ,colorTitle:'Cafe-2-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Cafe-2/Cafe2-MotivMaMaufEtch.png' ,colorTitle:'Cafe-2-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Cafe-2/Cafe2-MotivMaMaufExtraweiss.png' ,colorTitle:'Cafe-2-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Carna/Carna-DarkGrey.png' ,colorTitle:'Carna-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Carna/Carna-Etch.png' ,colorTitle:'Carna-Etch' },
+      {imgUrl:'img/GlassDesign/Carna/Carna-Extraweiss.png' ,colorTitle:'Carna-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Carna/Carna-FlaecheDarkGrey.png' ,colorTitle:'Carna-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Carna/Carna-FlaecheEtch.png' ,colorTitle:'Carna-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Carna/Carna-FlaecheExtraweiss.png' ,colorTitle:'Carna-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Carna/Carna-FlaecheFloatGrey.png' ,colorTitle:'Carna-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Carna/Carna-FloatGrey.png' ,colorTitle:'Carna-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Carna/Carna-MotivMaMaufEtch.png' ,colorTitle:'Carna-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Carna/Carna-MotivMaMaufExtraweiss.png' ,colorTitle:'Carna-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Bergamo/Bergamo-DarkGrey.png' ,colorTitle:'Bergamo-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Bergamo/Bergamo-Etch.png' ,colorTitle:'Bergamo-Etch' },
+      {imgUrl:'img/GlassDesign/Bergamo/Bergamo-Extraweiss.png' ,colorTitle:'Bergamo-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Bergamo/Bergamo-FlaecheDarkGrey.png' ,colorTitle:'Bergamo-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Bergamo/Bergamo-FlaecheEtch.png' ,colorTitle:'Bergamo-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Bergamo/Bergamo-FlaecheExtraweiss.png' ,colorTitle:'Bergamo-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Bergamo/Bergamo-FlaecheFloatGrey.png' ,colorTitle:'Bergamo-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Bergamo/Bergamo-FloatGrey.png' ,colorTitle:'Bergamo-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Bergamo/Bergamo-MotivMaMaufEtch.png' ,colorTitle:'Bergamo-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Bergamo/Bergamo-MotivMaMaufExtraweiss.png' ,colorTitle:'Bergamo-MotivMaMaufExtraweiss' },
+    ],
   ]
   document.getElementById('colors').innerHTML ='';
   switch (title) {
@@ -1030,6 +1102,78 @@ function openModal(event ,title) {
     break;
     case "Basic-02":
       colors[29].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Basic-03":
+      colors[30].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Basic-08":
+      colors[31].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Fasi":
+      colors[32].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Cafe-2":
+      colors[33].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Carna":
+      colors[34].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Bergamo":
+      colors[35].forEach((item)=>{
         document.getElementById('colors').innerHTML +=
         `
          <div onclick="chengDesignColor(event , '${item.colorTitle}')">
