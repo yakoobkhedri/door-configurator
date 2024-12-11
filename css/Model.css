@@ -1,3 +1,6 @@
+body{
+    user-select: none;
+}
 #Tur {
     position: fixed;
     left: 130mm;
@@ -157,7 +160,7 @@
     transform-origin: center;
     width: max-content;
     padding: 0;
-    background-color: white;
+    background-image: url('../img/wall.jpg');
 }
 #rightPanel2::after {
     position: absolute;
