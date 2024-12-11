@@ -779,25 +779,24 @@ function chengLola(event, name) {
 
 // change dastgire position
 
-function changeSvgPosition() {
+function changeSvgPosition(e) {
   var size_hh = parseInt(document.getElementById("GoM").value);
-  let oldsize_hh = size_hh;
-  size_hh = size_hh / 2;
-  console.log(
-    Number(GlasFront.style.height.replace("mm", "")) +
-      Number(dastgire.style.height.replace("mm", ""))
-  );
   if (
-    size_hh - 503 < 0 ||
-    size_hh - 503 >
+    size_hh  < 0 ||
+    size_hh  >
       Number(GlasFront.style.height.replace("mm", "")) -
         25.4 * (Number(dastgire.scrollHeight) / 96) -
         2
   ) {
-    document.getElementById("GoM").value = oldsize_hh;
-    return;
+    if(size_hh  < 0){
+      e.target.value=0
+    }else 
+    e.target.value=   Math.round( Number(GlasFront.style.height.replace("mm", "")) -
+    25.4 * (Number(dastgire.scrollHeight) / 96) -
+    3)
+    size_hh=  e.target.value
   }
-  dastgire.style.bottom = size_hh - 503 + "mm";
+  dastgire.style.bottom = size_hh  + "mm";
 }
 
 // change glass color

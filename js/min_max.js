@@ -156,12 +156,8 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('#GoM').on('change',function(){
         var height = $('#GoM').val();
-        if(height>=500 && height <=1350){
-            //ok
 			changeSize()
-        }else{
-            alert('Bitte ein gültiges Maß eingeben. \nMinimalhöhe: 500mm\nMaximalhöhe: 1350mm')
-        }
+       
     });
 });
 
