@@ -653,6 +653,66 @@ function openModal(event ,title) {
       {imgUrl:'img/GlassDesign/Amara/Amara-MotivMaMaufEtch.png' ,colorTitle:'Amara-MotivMaMaufEtch' },
       {imgUrl:'img/GlassDesign/Amara/Amara-MotivMaMaufExtraweiss.png' ,colorTitle:'Amara-MotivMaMaufExtraweiss' },
     ],
+    [
+      {imgUrl:'img/GlassDesign/Atessa/Atessa-DarkGrey.png' ,colorTitle:'Atessa-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Atessa/Atessa-Etch.png' ,colorTitle:'Atessa-Etch' },
+      {imgUrl:'img/GlassDesign/Atessa/Atessa-Extraweiss.png' ,colorTitle:'Atessa-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Atessa/Atessa-FlaecheDarkGrey.png' ,colorTitle:'Atessa-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Atessa/Atessa-FlaecheEtch.png' ,colorTitle:'Atessa-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Atessa/Atessa-FlaecheExtraweiss.png' ,colorTitle:'Atessa-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Atessa/Atessa-FlaecheFloatGrey.png' ,colorTitle:'Atessa-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Atessa/Atessa-FloatGrey.png' ,colorTitle:'Atessa-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Atessa/Atessa-MotivMaMaufEtch.png' ,colorTitle:'Atessa-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Atessa/Atessa-MotivMaMaufExtraweiss.png' ,colorTitle:'Atessa-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Bahia-R/Bahia-R-DarkGrey.png' ,colorTitle:'Bahia-R-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Bahia-R/Bahia-R-Etch.png' ,colorTitle:'Bahia-R-Etch' },
+      {imgUrl:'img/GlassDesign/Bahia-R/Bahia-R-Extraweiss.png' ,colorTitle:'Bahia-R-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Bahia-R/Bahia-R-FlaecheDarkGrey.png' ,colorTitle:'Bahia-R-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Bahia-R/Bahia-R-FlaecheEtch.png' ,colorTitle:'Bahia-R-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Bahia-R/Bahia-R-FlaecheExtraweiss.png' ,colorTitle:'Bahia-R-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Bahia-R/Bahia-R-FlaecheFloatGrey.png' ,colorTitle:'Bahia-R-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Bahia-R/Bahia-R-FloatGrey.png' ,colorTitle:'Bahia-R-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Bahia-R/Bahia-R-MotivMaMaufEtch.png' ,colorTitle:'Bahia-R-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Bahia-R/Bahia-R-MotivMaMaufExtraweiss.png' ,colorTitle:'Bahia-R-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Bambu/Bambu-DarkGrey.png' ,colorTitle:'Bambu-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Bambu/Bambu-Etch.png' ,colorTitle:'Bambu-Etch' },
+      {imgUrl:'img/GlassDesign/Bambu/Bambu-Extraweiss.png' ,colorTitle:'Bambu-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Bambu/Bambu-FlaecheDarkGrey.png' ,colorTitle:'Bambu-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Bambu/Bambu-FlaecheEtch.png' ,colorTitle:'Bambu-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Bambu/Bambu-FlaecheExtraweiss.png' ,colorTitle:'Bambu-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Bambu/Bambu-FlaecheFloatGrey.png' ,colorTitle:'Bambu-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Bambu/Bambu-FloatGrey.png' ,colorTitle:'Bambu-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Bambu/Bambu-MotivMaMaufEtch.png' ,colorTitle:'Bambu-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Bambu/Bambu-MotivMaMaufExtraweiss.png' ,colorTitle:'Bambu-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Basic-01/Basic-01-DarkGrey.png' ,colorTitle:'Basic-01-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Basic-01/Basic-01-Etch.png' ,colorTitle:'Basic-01-Etch' },
+      {imgUrl:'img/GlassDesign/Basic-01/Basic-01-Extraweiss.png' ,colorTitle:'Basic-01-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Basic-01/Basic-01-FlaecheDarkGrey.png' ,colorTitle:'Basic-01-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Basic-01/Basic-01-FlaecheEtch.png' ,colorTitle:'Basic-01-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Basic-01/Basic-01-FlaecheExtraweiss.png' ,colorTitle:'Basic-01-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Basic-01/Basic-01-FlaecheFloatGrey.png' ,colorTitle:'Basic-01-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Basic-01/Basic-01-FloatGrey.png' ,colorTitle:'Basic-01-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Basic-01/Basic-01-MotivMaMaufEtch.png' ,colorTitle:'Basic-01-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Basic-01/Basic-01-MotivMaMaufExtraweiss.png' ,colorTitle:'Basic-01-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Basic-02/Basic02-DarkGrey.png' ,colorTitle:'Basic-02-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Basic-02/Basic02-Etch.png' ,colorTitle:'Basic-02-Etch' },
+      {imgUrl:'img/GlassDesign/Basic-02/Basic02-Extraweiss.png' ,colorTitle:'Basic-02-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Basic-02/Basic02-FlaecheDarkGrey.png' ,colorTitle:'Basic-02-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Basic-02/Basic02-FlaecheEtch.png' ,colorTitle:'Basic-02-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Basic-02/Basic02-FlaecheExtraweiss.png' ,colorTitle:'Basic-02-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Basic-02/Basic02-FlaecheFloatGrey.png' ,colorTitle:'Basic-02-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Basic-02/Basic02-FloatGrey.png' ,colorTitle:'Basic-02-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Basic-02/Basic02-MotivMaMaufEtch.png' ,colorTitle:'Basic-02-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Basic-02/Basic02-MotivMaMaufExtraweiss.png' ,colorTitle:'Basic-02-MotivMaMaufExtraweiss' },
+    ],
   ]
   document.getElementById('colors').innerHTML ='';
   switch (title) {
@@ -910,6 +970,66 @@ function openModal(event ,title) {
     break;
     case "Amara":
       colors[24].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Atessa":
+      colors[25].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Bahia-R":
+      colors[26].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Bambu":
+      colors[27].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Basic-01":
+      colors[28].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Basic-02":
+      colors[29].forEach((item)=>{
         document.getElementById('colors').innerHTML +=
         `
          <div onclick="chengDesignColor(event , '${item.colorTitle}')">
