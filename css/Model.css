@@ -169,7 +169,7 @@
     height: 118px;
     background-image: url('../img/wall.jpg');
     background-position: center;
-    background-size: contain;
+    background-size: inherit;
     margin: auto;
 }
 #GlasRight {
@@ -224,7 +224,7 @@
 }
 #GlasFront {
     /* overflow: hidden; */
-    width: 32mm;
+    width: 47.4211mm;
     height: 100mm;
     display: block;
     opacity: 1;
@@ -359,6 +359,9 @@
 .w-90 {
     width: 90px;
 }
+.w-101 {
+    width: 101px;
+}
 .w-120 {
     width: 120px;
 }
@@ -379,6 +382,9 @@
 }
 .h-90{
     height: 90px;
+}
+.h-101{
+    height: 101px;
 }
 .h-120{
     height: 120px;

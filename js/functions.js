@@ -1,9 +1,10 @@
 let bildersOption = {};
 function changeSize() {
   let size_www = parseInt(document.getElementById("www").value);
-  let size_w = parseInt(document.getElementById("w").value);
+  let size_w = parseInt(document.getElementById("wwwww").value);
   let size_FL = parseInt(document.getElementById("ww").value);
   let size_FR = parseInt(document.getElementById("wwww").value);
+  // let size_FR2 = parseInt(document.getElementById("wwwww").value);
   var size_h = parseInt(document.getElementById("h").value);
   var size_FH = parseInt(document.getElementById("hhh").value);
   let size_ww = parseInt(document.getElementById("GUM").value);
@@ -18,6 +19,7 @@ function changeSize() {
 
   size_FL = size_FL / 19;
   size_FR = size_FR / 19;
+  // size_FR2 = size_FR2 / 19;
 
   size_hh = size_hh / 20;
   size_ww = size_ww / 10;
