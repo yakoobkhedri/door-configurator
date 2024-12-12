@@ -998,6 +998,75 @@ function openModal(event ,title) {
       {imgUrl:'img/GlassDesign/Termoli/Termoli-MotivMaMaufEtch.png' ,colorTitle:'Termoli-MotivMaMaufEtch' },
       {imgUrl:'img/GlassDesign/Termoli/Termoli-MotivMaMaufExtraweiss.png' ,colorTitle:'Termoli-MotivMaMaufExtraweiss' },
     ],
+    [
+      {imgUrl:'img/GlassDesign/Stilo/Stilo-DarkGrey.png' ,colorTitle:'Stilo-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Stilo/Stilo-Etch.png' ,colorTitle:'Stilo-Etch' },
+      {imgUrl:'img/GlassDesign/Stilo/Stilo-Extraweiss.png' ,colorTitle:'Stilo-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Stilo/Stilo-FlaecheDarkGrey.png' ,colorTitle:'Stilo-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Stilo/Stilo-FlaecheEtch.png' ,colorTitle:'Stilo-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Stilo/Stilo-FlaecheExtraweiss.png' ,colorTitle:'Stilo-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Stilo/Stilo-FlaecheFloatGrey.png' ,colorTitle:'Stilo-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Stilo/Stilo-FloatGrey.png' ,colorTitle:'Stilo-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Stilo/Stilo-MotivMaMaufEtch.png' ,colorTitle:'Stilo-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Stilo/Stilo-MotivMaMaufExtraweiss.png' ,colorTitle:'Stilo-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Sinus-2/Sinus-2-DarkGrey.png' ,colorTitle:'Sinus-2-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Sinus-2/Sinus-2-Etch.png' ,colorTitle:'Sinus-2-Etch' },
+      {imgUrl:'img/GlassDesign/Sinus-2/Sinus-2-Extraweiss.png' ,colorTitle:'Sinus-2-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Sinus-2/Sinus-2-FlaecheDarkGrey.png' ,colorTitle:'Sinus-2-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Sinus-2/Sinus-2-FlaecheEtch.png' ,colorTitle:'Sinus-2-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Sinus-2/Sinus-2-FlaecheExtraweiss.png' ,colorTitle:'Sinus-2-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Sinus-2/Sinus-2-FlaecheFloatGrey.png' ,colorTitle:'Sinus-2-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Sinus-2/Sinus-2-FloatGrey.png' ,colorTitle:'Sinus-2-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Sinus-2/Sinus-2-MotivMaMaufEtch.png' ,colorTitle:'Sinus-2-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Sinus-2/Sinus-2-MotivMaMaufExtraweiss.png' ,colorTitle:'Sinus-2-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Selina/Selina-DarkGrey.png' ,colorTitle:'Selina-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Selina/Selina-Etch.png' ,colorTitle:'Selina-Etch' },
+      {imgUrl:'img/GlassDesign/Selina/Selina-Extraweiss.png' ,colorTitle:'Selina-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Selina/Selina-FlaecheDarkGrey.png' ,colorTitle:'Selina-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Selina/Selina-FlaecheEtch.png' ,colorTitle:'Selina-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Selina/Selina-FlaecheExtraweiss.png' ,colorTitle:'Selina-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Selina/Selina-FlaecheFloatGrey.png' ,colorTitle:'Selina-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Selina/Selina-FloatGrey.png' ,colorTitle:'Selina-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Selina/Selina-MotivMaMaufEtch.png' ,colorTitle:'Selina-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Selina/Selina-MotivMaMaufExtraweiss.png' ,colorTitle:'Selina-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Ry451/Ry451-DarkGrey.png' ,colorTitle:'Ry451-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Ry451/Ry451-Etch.png' ,colorTitle:'Ry451-Etch' },
+      {imgUrl:'img/GlassDesign/Ry451/Ry451-Extraweiss.png' ,colorTitle:'Ry451-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Ry451/Ry451-FlaecheDarkGrey.png' ,colorTitle:'Ry451-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Ry451/Ry451-FlaecheEtch.png' ,colorTitle:'Ry451-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Ry451/Ry451-FlaecheExtraweiss.png' ,colorTitle:'Ry451-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Ry451/Ry451-FlaecheFloatGrey.png' ,colorTitle:'Ry451-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Ry451/Ry451-FloatGrey.png' ,colorTitle:'Ry451-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Ry451/Ry451-MotivMaMaufEtch.png' ,colorTitle:'Ry451-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Ry451/Ry451-MotivMaMaufExtraweiss.png' ,colorTitle:'Ry451-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Ry443/Ry443-DarkGrey.png' ,colorTitle:'Ry443-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Ry443/Ry443-Etch.png' ,colorTitle:'Ry443-Etch' },
+      {imgUrl:'img/GlassDesign/Ry443/Ry443-Extraweiss.png' ,colorTitle:'Ry443-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Ry443/Ry443-FlaecheDarkGrey.png' ,colorTitle:'Ry443-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Ry443/Ry443-FlaecheEtch.png' ,colorTitle:'Ry443-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Ry443/Ry443-FlaecheExtraweiss.png' ,colorTitle:'Ry443-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Ry443/Ry443-FlaecheFloatGrey.png' ,colorTitle:'Ry443-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Ry443/Ry443-FloatGrey.png' ,colorTitle:'Ry443-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Ry443/Ry443-MotivMaMaufEtch.png' ,colorTitle:'Ry443-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Ry443/Ry443-MotivMaMaufExtraweiss.png' ,colorTitle:'Ry443-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Rayas2/Rayas2-whiteline.png' ,colorTitle:'Rayas2-whiteline' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Rayas1/Rayas1.png' ,colorTitle:'Rayas1' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Quer/Quer.png' ,colorTitle:'Quer' },
+    ],
   ]
   document.getElementById('colors').innerHTML ='';
   switch (title) {
@@ -1627,6 +1696,102 @@ function openModal(event ,title) {
     break;
     case "Termoli":
       colors[55].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Stilo":
+      colors[56].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Sinus-2":
+      colors[57].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Selina":
+      colors[58].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Ry451":
+      colors[59].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Ry443":
+      colors[60].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Rayas2":
+      colors[61].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Rayas1":
+      colors[62].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Quer":
+      colors[63].forEach((item)=>{
         document.getElementById('colors').innerHTML +=
         `
          <div onclick="chengDesignColor(event , '${item.colorTitle}')">
