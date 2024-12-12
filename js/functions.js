@@ -785,6 +785,141 @@ function openModal(event ,title) {
       {imgUrl:'img/GlassDesign/Bergamo/Bergamo-MotivMaMaufEtch.png' ,colorTitle:'Bergamo-MotivMaMaufEtch' },
       {imgUrl:'img/GlassDesign/Bergamo/Bergamo-MotivMaMaufExtraweiss.png' ,colorTitle:'Bergamo-MotivMaMaufExtraweiss' },
     ],
+    [
+      {imgUrl:'img/GlassDesign/Cinque/Cinque-DarkGrey.png' ,colorTitle:'Cinque-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Cinque/Cinque-Etch.png' ,colorTitle:'Cinque-Etch' },
+      {imgUrl:'img/GlassDesign/Cinque/Cinque-Extraweiss.png' ,colorTitle:'Cinque-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Cinque/Cinque-FlaecheDarkGrey.png' ,colorTitle:'Cinque-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Cinque/Cinque-FlaecheEtch.png' ,colorTitle:'Cinque-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Cinque/Cinque-FlaecheExtraweiss.png' ,colorTitle:'Cinque-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Cinque/Cinque-FlaecheFloatGrey.png' ,colorTitle:'Cinque-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Cinque/Cinque-FloatGrey.png' ,colorTitle:'Cinque-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Cinque/Cinque-MotivMaMaufEtch.png' ,colorTitle:'Cinque-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Cinque/Cinque-MotivMaMaufExtraweiss.png' ,colorTitle:'Cinque-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Kabira/Kabira-DarkGrey.png' ,colorTitle:'Kabira-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Kabira/Kabira-Etch.png' ,colorTitle:'Kabira-Etch' },
+      {imgUrl:'img/GlassDesign/Kabira/Kabira-Extraweiss.png' ,colorTitle:'Kabira-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Kabira/Kabira-FlaecheDarkGrey.png' ,colorTitle:'Kabira-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Kabira/Kabira-FlaecheEtch.png' ,colorTitle:'Kabira-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Kabira/Kabira-FlaecheExtraweiss.png' ,colorTitle:'Kabira-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Kabira/Kabira-FlaecheFloatGrey.png' ,colorTitle:'Kabira-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Kabira/Kabira-FloatGrey.png' ,colorTitle:'Kabira-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Kabira/Kabira-MotivMaMaufEtch.png' ,colorTitle:'Kabira-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Kabira/Kabira-MotivMaMaufExtraweiss.png' ,colorTitle:'Kabira-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Cristall/Cristall-DarkGrey.png' ,colorTitle:'Cristall-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Cristall/Cristall-Etch.png' ,colorTitle:'Cristall-Etch' },
+      {imgUrl:'img/GlassDesign/Cristall/Cristall-Extraweiss.png' ,colorTitle:'Cristall-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Cristall/Cristall-FlaecheDarkGrey.png' ,colorTitle:'Cristall-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Cristall/Cristall-FlaecheEtch.png' ,colorTitle:'Cristall-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Cristall/Cristall-FlaecheExtraweiss.png' ,colorTitle:'Cristall-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Cristall/Cristall-FlaecheFloatGrey.png' ,colorTitle:'Cristall-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Cristall/Cristall-FloatGrey.png' ,colorTitle:'Cristall-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Cristall/Cristall-MotivMaMaufEtch.png' ,colorTitle:'Cristall-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Cristall/Cristall-MotivMaMaufExtraweiss.png' ,colorTitle:'Cristall-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Bukarest/Bukarest-DarkGrey.png' ,colorTitle:'Bukarest-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Bukarest/Bukarest-Etch.png' ,colorTitle:'Bukarest-Etch' },
+      {imgUrl:'img/GlassDesign/Bukarest/Bukarest-Extraweiss.png' ,colorTitle:'Bukarest-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Bukarest/Bukarest-FlaecheDarkGrey.png' ,colorTitle:'Bukarest-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Bukarest/Bukarest-FlaecheEtch.png' ,colorTitle:'Bukarest-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Bukarest/Bukarest-FlaecheExtraweiss.png' ,colorTitle:'Bukarest-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Bukarest/Bukarest-FlaecheFloatGrey.png' ,colorTitle:'Bukarest-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Bukarest/Bukarest-FloatGrey.png' ,colorTitle:'Bukarest-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Bukarest/Bukarest-MotivMaMaufEtch.png' ,colorTitle:'Bukarest-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Bukarest/Bukarest-MotivMaMaufExtraweiss.png' ,colorTitle:'Bukarest-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Kiano4/Kiano4-DarkGrey.png' ,colorTitle:'Kiano4-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Kiano4/Kiano4-Etch.png' ,colorTitle:'Kiano4-Etch' },
+      {imgUrl:'img/GlassDesign/Kiano4/Kiano4-Extraweiss.png' ,colorTitle:'Kiano4-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Kiano4/Kiano4-FlaecheDarkGrey.png' ,colorTitle:'Kiano4-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Kiano4/Kiano4-FlaecheEtch.png' ,colorTitle:'Kiano4-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Kiano4/Kiano4-FlaecheExtraweiss.png' ,colorTitle:'Kiano4-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Kiano4/Kiano4-FlaecheFloatGrey.png' ,colorTitle:'Kiano4-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Kiano4/Kiano4-FloatGrey.png' ,colorTitle:'Kiano4-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Kiano4/Kiano4-MotivMaMaufEtch.png' ,colorTitle:'Kiano4-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Kiano4/Kiano4-MotivMaMaufExtraweiss.png' ,colorTitle:'Kiano4-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Hirsch-3/Hirsch3-DarkGrey.png' ,colorTitle:'Hirsch3-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Hirsch-3/Hirsch3-Etch.png' ,colorTitle:'Hirsch3-Etch' },
+      {imgUrl:'img/GlassDesign/Hirsch-3/Hirsch3-Extraweiss.png' ,colorTitle:'Hirsch3-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Hirsch-3/Hirsch3-FlaecheDarkGrey.png' ,colorTitle:'Hirsch3-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Hirsch-3/Hirsch3-FlaecheEtch.png' ,colorTitle:'Hirsch3-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Hirsch-3/Hirsch3-FlaecheExtraweiss.png' ,colorTitle:'Hirsch3-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Hirsch-3/Hirsch3-FlaecheFloatGrey.png' ,colorTitle:'Hirsch3-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Hirsch-3/Hirsch3-FloatGrey.png' ,colorTitle:'Hirsch3-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Hirsch-3/Hirsch3-MotivMaMaufEtch.png' ,colorTitle:'Hirsch3-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Hirsch-3/Hirsch3-MotivMaMaufExtraweiss.png' ,colorTitle:'Hirsch3-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Flowers-R/Flowers-R-DarkGrey.png' ,colorTitle:'Flowers-R-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Flowers-R/Flowers-R-Etch.png' ,colorTitle:'Flowers-R-Etch' },
+      {imgUrl:'img/GlassDesign/Flowers-R/Flowers-R-Extraweiss.png' ,colorTitle:'Flowers-R-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Flowers-R/Flowers-R-FlaecheDarkGrey.png' ,colorTitle:'Flowers-R-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Flowers-R/Flowers-R-FlaecheEtch.png' ,colorTitle:'Flowers-R-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Flowers-R/Flowers-R-FlaecheExtraweiss.png' ,colorTitle:'Flowers-R-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Flowers-R/Flowers-R-FlaecheFloatGrey.png' ,colorTitle:'Flowers-R-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Flowers-R/Flowers-R-FloatGrey.png' ,colorTitle:'Flowers-R-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Flowers-R/Flowers-R-MotivMaMaufEtch.png' ,colorTitle:'Flowers-R-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Flowers-R/Flowers-R-MotivMaMaufExtraweiss.png' ,colorTitle:'Flowers-R-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Fasi-R/Fasi-R-DarkGrey.png' ,colorTitle:'Fasi-R-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Fasi-R/Fasi-R-Etch.png' ,colorTitle:'Fasi-R-Etch' },
+      {imgUrl:'img/GlassDesign/Fasi-R/Fasi-R-Extraweiss.png' ,colorTitle:'Fasi-R-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Fasi-R/Fasi-R-FlaecheDarkGrey.png' ,colorTitle:'Fasi-R-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Fasi-R/Fasi-R-FlaecheEtch.png' ,colorTitle:'Fasi-R-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Fasi-R/Fasi-R-FlaecheExtraweiss.png' ,colorTitle:'Fasi-R-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Fasi-R/Fasi-R-FlaecheFloatGrey.png' ,colorTitle:'Fasi-R-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Fasi-R/Fasi-R-FloatGrey.png' ,colorTitle:'Fasi-R-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Fasi-R/Fasi-R-MotivMaMaufEtch.png' ,colorTitle:'Fasi-R-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Fasi-R/Fasi-R-MotivMaMaufExtraweiss.png' ,colorTitle:'Fasi-R-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Flowers-5/Flowers-5-DarkGrey.png' ,colorTitle:'Flowers-5-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Flowers-5/Flowers-5-Etch.png' ,colorTitle:'Flowers-5-Etch' },
+      {imgUrl:'img/GlassDesign/Flowers-5/Flowers-5-Extraweiss.png' ,colorTitle:'Flowers-5-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Flowers-5/Flowers-5-FlaecheDarkGrey.png' ,colorTitle:'Flowers-5-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Flowers-5/Flowers-5-FlaecheEtch.png' ,colorTitle:'Flowers-5-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Flowers-5/Flowers-5-FlaecheExtraweiss.png' ,colorTitle:'Flowers-5-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Flowers-5/Flowers-5-FlaecheFloatGrey.png' ,colorTitle:'Flowers-5-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Flowers-5/Flowers-5-FloatGrey.png' ,colorTitle:'Flowers-5-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Flowers-5/Flowers-5-MotivMaMaufEtch.png' ,colorTitle:'Flowers-5-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Flowers-5/Flowers-5-MotivMaMaufExtraweiss.png' ,colorTitle:'Flowers-5-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Bonito-kunex/Bonito-DarkGrey.png' ,colorTitle:'Bonito-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Bonito-kunex/Bonito-Etch.png' ,colorTitle:'Bonito-Etch' },
+      {imgUrl:'img/GlassDesign/Bonito-kunex/Bonito-Extraweiss.png' ,colorTitle:'Bonito-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Bonito-kunex/Bonito-FlaecheDarkGrey.png' ,colorTitle:'Bonito-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Bonito-kunex/Bonito-FlaecheEtch.png' ,colorTitle:'Bonito-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Bonito-kunex/Bonito-FlaecheExtraweiss.png' ,colorTitle:'Bonito-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Bonito-kunex/Bonito-FlaecheFloatGrey.png' ,colorTitle:'Bonito-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Bonito-kunex/Bonito-FloatGrey.png' ,colorTitle:'Bonito-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Bonito-kunex/Bonito-MotivMaMaufEtch.png' ,colorTitle:'Bonito-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Bonito-kunex/Bonito-MotivMaMaufExtraweiss.png' ,colorTitle:'Bonito-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Cristall-R/Cristall-R-DarkGrey.png' ,colorTitle:'Cristall-R-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Cristall-R/Cristall-R-Etch.png' ,colorTitle:'Cristall-R-Etch' },
+      {imgUrl:'img/GlassDesign/Cristall-R/Cristall-R-Extraweiss.png' ,colorTitle:'Cristall-R-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Cristall-R/Cristall-R-FlaecheDarkGrey.png' ,colorTitle:'Cristall-R-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Cristall-R/Cristall-R-FlaecheEtch.png' ,colorTitle:'Cristall-R-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Cristall-R/Cristall-R-FlaecheExtraweiss.png' ,colorTitle:'Cristall-R-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Cristall-R/Cristall-R-FlaecheFloatGrey.png' ,colorTitle:'Cristall-R-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Cristall-R/Cristall-R-FloatGrey.png' ,colorTitle:'Cristall-R-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Cristall-R/Cristall-R-MotivMaMaufEtch.png' ,colorTitle:'Cristall-R-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Cristall-R/Cristall-R-MotivMaMaufExtraweiss.png' ,colorTitle:'Cristall-R-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Alba/Alba-Motiv.png' ,colorTitle:'Alba-Motiv' },
+    ],
   ]
   document.getElementById('colors').innerHTML ='';
   switch (title) {
@@ -1184,7 +1319,151 @@ function openModal(event ,title) {
          `
       })
     break;
-    default:
+    case "Cinque":
+      colors[36].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Kabira":
+      colors[37].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Cristall":
+      colors[38].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Bukarest":
+      colors[39].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Kiano4":
+      colors[40].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Hirsch-3":
+      colors[41].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Flowers-R":
+      colors[42].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Fasi-R":
+      colors[43].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Flowers-5":
+      colors[44].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Bonito-kunex":
+      colors[45].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Cristall-R":
+      colors[46].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Alba":
+      colors[47].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+      default:
       console.log("Unknown shape!");
   }
 
