@@ -920,6 +920,84 @@ function openModal(event ,title) {
     [
       {imgUrl:'img/GlassDesign/Alba/Alba-Motiv.png' ,colorTitle:'Alba-Motiv' },
     ],
+    [
+      {imgUrl:'img/GlassDesign/Kiano-8/Kiano8-DarkGrey.png' ,colorTitle:'Kiano8-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Kiano-8/Kiano8-Etch.png' ,colorTitle:'Kiano8-Etch' },
+      {imgUrl:'img/GlassDesign/Kiano-8/Kiano8-Extraweiss.png' ,colorTitle:'Kiano8-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Kiano-8/Kiano8-FlaecheDarkGrey.png' ,colorTitle:'Kiano8-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Kiano-8/Kiano8-FlaecheEtch.png' ,colorTitle:'Kiano8-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Kiano-8/Kiano8-FlaecheExtraweiss.png' ,colorTitle:'Kiano8-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Kiano-8/Kiano8-FlaecheFloatGrey.png' ,colorTitle:'Kiano8-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Kiano-8/Kiano8-FloatGrey.png' ,colorTitle:'Kiano8-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Kiano-8/Kiano8-MotivMaMaufEtch.png' ,colorTitle:'Kiano8-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Kiano-8/Kiano8-MotivMaMaufExtraweiss.png' ,colorTitle:'Kiano8-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Vertigo/Vertigo-DarkGrey.png' ,colorTitle:'Vertigo-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Vertigo/Vertigo-Etch.png' ,colorTitle:'Vertigo-Etch' },
+      {imgUrl:'img/GlassDesign/Vertigo/Vertigo-Extraweiss.png' ,colorTitle:'Vertigo-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Vertigo/Vertigo-FlaecheDarkGrey.png' ,colorTitle:'Vertigo-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Vertigo/Vertigo-FlaecheEtch.png' ,colorTitle:'Vertigo-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Vertigo/Vertigo-FlaecheExtraweiss.png' ,colorTitle:'Vertigo-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Vertigo/Vertigo-FlaecheFloatGrey.png' ,colorTitle:'Vertigo-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Vertigo/Vertigo-FloatGrey.png' ,colorTitle:'Vertigo-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Vertigo/Vertigo-MotivMaMaufEtch.png' ,colorTitle:'Vertigo-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Vertigo/Vertigo-MotivMaMaufExtraweiss.png' ,colorTitle:'Vertigo-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Umlaufender/Umlaufender-DarkGrey.png' ,colorTitle:'Umlaufender-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Umlaufender/Umlaufender-Etch.png' ,colorTitle:'Umlaufender-Etch' },
+      {imgUrl:'img/GlassDesign/Umlaufender/Umlaufender-Extraweiss.png' ,colorTitle:'Umlaufender-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Umlaufender/Umlaufender-FlaecheDarkGrey.png' ,colorTitle:'Umlaufender-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Umlaufender/Umlaufender-FlaecheEtch.png' ,colorTitle:'Umlaufender-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Umlaufender/Umlaufender-FlaecheExtraweiss.png' ,colorTitle:'Umlaufender-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Umlaufender/Umlaufender-FlaecheFloatGrey.png' ,colorTitle:'Umlaufender-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Umlaufender/Umlaufender-FloatGrey.png' ,colorTitle:'Umlaufender-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Umlaufender/Umlaufender-MotivMaMaufEtch.png' ,colorTitle:'Umlaufender-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Umlaufender/Umlaufender-MotivMaMaufExtraweiss.png' ,colorTitle:'Umlaufender-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Ufficio/Ufficio-DarkGrey.png' ,colorTitle:'Ufficio-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Ufficio/Ufficio-Etch.png' ,colorTitle:'Ufficio-Etch' },
+      {imgUrl:'img/GlassDesign/Ufficio/Ufficio-Extraweiss.png' ,colorTitle:'Ufficio-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Ufficio/Ufficio-FlaecheDarkGrey.png' ,colorTitle:'Ufficio-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Ufficio/Ufficio-FlaecheEtch.png' ,colorTitle:'Ufficio-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Ufficio/Ufficio-FlaecheExtraweiss.png' ,colorTitle:'Ufficio-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Ufficio/Ufficio-FlaecheFloatGrey.png' ,colorTitle:'Ufficio-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Ufficio/Ufficio-FloatGrey.png' ,colorTitle:'Ufficio-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Ufficio/Ufficio-MotivMaMaufEtch.png' ,colorTitle:'Ufficio-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Ufficio/Ufficio-MotivMaMaufExtraweiss.png' ,colorTitle:'Ufficio-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/travesano/travesanoDIN.png' ,colorTitle:'travesanoDIN' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Tiana/Tiana.png' ,colorTitle:'Tiana' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Thema/Thema-DarkGrey.png' ,colorTitle:'Thema-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Thema/Thema-Etch.png' ,colorTitle:'Thema-Etch' },
+      {imgUrl:'img/GlassDesign/Thema/Thema-Extraweiss.png' ,colorTitle:'Thema-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Thema/Thema-FlaecheDarkGrey.png' ,colorTitle:'Thema-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Thema/Thema-FlaecheEtch.png' ,colorTitle:'Thema-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Thema/Thema-FlaecheExtraweiss.png' ,colorTitle:'Thema-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Thema/Thema-FlaecheFloatGrey.png' ,colorTitle:'Thema-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Thema/Thema-FloatGrey.png' ,colorTitle:'Thema-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Thema/Thema-MotivMaMaufEtch.png' ,colorTitle:'Thema-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Thema/Thema-MotivMaMaufExtraweiss.png' ,colorTitle:'Thema-MotivMaMaufExtraweiss' },
+    ],
+    [
+      {imgUrl:'img/GlassDesign/Termoli/Termoli-DarkGrey.png' ,colorTitle:'Termoli-DarkGrey' },
+      {imgUrl:'img/GlassDesign/Termoli/Termoli-Etch.png' ,colorTitle:'Termoli-Etch' },
+      {imgUrl:'img/GlassDesign/Termoli/Termoli-Extraweiss.png' ,colorTitle:'Termoli-Extraweiss' },
+      {imgUrl:'img/GlassDesign/Termoli/Termoli-FlaecheDarkGrey.png' ,colorTitle:'Termoli-FlaecheDarkGrey' },
+      {imgUrl:'img/GlassDesign/Termoli/Termoli-FlaecheEtch.png' ,colorTitle:'Termoli-FlaecheEtch' },
+      {imgUrl:'img/GlassDesign/Termoli/Termoli-FlaecheExtraweiss.png' ,colorTitle:'Termoli-FlaecheExtraweiss' },
+      {imgUrl:'img/GlassDesign/Termoli/Termoli-FlaecheFloatGrey.png' ,colorTitle:'Termoli-FlaecheFloatGrey' },
+      {imgUrl:'img/GlassDesign/Termoli/Termoli-FloatGrey.png' ,colorTitle:'Termoli-FloatGrey' },
+      {imgUrl:'img/GlassDesign/Termoli/Termoli-MotivMaMaufEtch.png' ,colorTitle:'Termoli-MotivMaMaufEtch' },
+      {imgUrl:'img/GlassDesign/Termoli/Termoli-MotivMaMaufExtraweiss.png' ,colorTitle:'Termoli-MotivMaMaufExtraweiss' },
+    ],
   ]
   document.getElementById('colors').innerHTML ='';
   switch (title) {
@@ -1453,6 +1531,102 @@ function openModal(event ,title) {
     break;
     case "Alba":
       colors[47].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Kiano8":
+      colors[48].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Vertigo":
+      colors[49].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Umlaufender":
+      colors[50].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Ufficio":
+      colors[51].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Travesano":
+      colors[52].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Tiana":
+      colors[53].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Thema":
+      colors[54].forEach((item)=>{
+        document.getElementById('colors').innerHTML +=
+        `
+         <div onclick="chengDesignColor(event , '${item.colorTitle}')">
+             <img id="colorimg" src=${item.imgUrl} width="101" height="138"
+             alt="img" />
+             <br><br><label for="ESG_klar">${item.colorTitle}</label>
+         </div>
+         `
+      })
+    break;
+    case "Termoli":
+      colors[55].forEach((item)=>{
         document.getElementById('colors').innerHTML +=
         `
          <div onclick="chengDesignColor(event , '${item.colorTitle}')">
