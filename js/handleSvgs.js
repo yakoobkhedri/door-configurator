@@ -614,35 +614,6 @@ function chengLola(event, name) {
   document.getElementById("lolaLabel").innerText = name;
 
   switch (name) {
-    case "lola":
-      document.querySelectorAll(".lola").forEach((items) => {
-        items.innerHTML = `
-             <svg data-name="Layer 1"
-                                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.61 62.62">
-                                          <defs>
-                                              <style>
-                                                  .cls-1 {
-                                                      fill: #292e37;
-                                                      stroke: #020202;
-                                                      stroke-miterlimit: 10;
-                                                      stroke-width: .39px;
-                                                  }
-                                              </style>
-                                          </defs>
-                                          <g id="Layer_1-2" data-name="Layer 1">
-                                              <g id="Layer_1-2" data-name="Layer 1-2">
-                                                  <g>
-                                                      <path class="cls-1"
-                                                          d="M50.49,12.96V49.66h11.92v7.55c0,2.88-2.33,5.21-5.21,5.21H.2V.2H57.21c2.88,0,5.21,2.33,5.21,5.21v7.56h-11.92Z" />
-                                                      <rect class="cls-1" x="51.23" y="13.84" width="11.18" height="34.93" />
-                                                  </g>
-                                              </g>
-                                          </g>
-                                      </svg>
-            `;
-      });
-
-      break;
     case "junior":
       document.querySelectorAll(".lola").forEach((items) => {
         items.innerHTML = `
