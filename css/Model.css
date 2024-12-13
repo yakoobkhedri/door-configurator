@@ -1,12 +1,14 @@
-body{
+body {
     user-select: none;
 }
+
 #Tur {
     position: fixed;
     left: 130mm;
     width: 35mm;
     top: 45.5mm;
 }
+
 #Glas {
     /* Glas */
     position: fixed;
@@ -24,6 +26,7 @@ body{
     width: 203mm;
     height: 143mm;
 }
+
 #Rahmen {
     /* Rahmen Tür*/
     position: fixed;
@@ -35,6 +38,7 @@ body{
     width: 60.4mm;
     height: 120mm;
 }
+
 /* masee zeigen */
 #widthGlaslinks {
     font-size: 14px;
@@ -45,6 +49,7 @@ body{
     width: 15mm;
     height: 2mm;
 }
+
 #widthGlaslinkss {
     display: Block;
     position: fixed;
@@ -54,6 +59,7 @@ body{
     width: 202mm;
     height: 2mm;
 }
+
 /* masee zeigen */
 #widthtürlinks {
     display: Block;
@@ -74,6 +80,7 @@ body{
     width: 202mm;
     height: 2mm;
 }
+
 /* masee zeigen */
 #widthtürrechts {
     display: Block;
@@ -84,6 +91,7 @@ body{
     width: 15mm;
     height: 2mm;
 }
+
 #widthtürrechtss {
     display: Block;
     position: fixed;
@@ -93,6 +101,7 @@ body{
     width: 202mm;
     height: 2mm;
 }
+
 /* masee zeigen */
 #widthGlasrechts {
     display: Block;
@@ -103,6 +112,7 @@ body{
     width: 15mm;
     height: 2mm;
 }
+
 #widthGlasrechtss {
     display: Block;
     position: fixed;
@@ -112,6 +122,7 @@ body{
     width: 202mm;
     height: 2mm;
 }
+
 /* masee zeigen */
 #widthSuma {
     display: Block;
@@ -122,6 +133,7 @@ body{
     width: 100mm;
     height: 2mm;
 }
+
 #widthSum {
     display: Block;
     position: fixed;
@@ -131,6 +143,7 @@ body{
     width: 202mm;
     height: 2mm;
 }
+
 /* masee zeigen */
 #heightSuma {
     display: Block;
@@ -141,6 +154,7 @@ body{
     width: 100mm;
     height: 2mm;
 }
+
 #heightSum {
     display: Block;
     position: fixed;
@@ -150,6 +164,7 @@ body{
     width: 202mm;
     height: 2mm;
 }
+
 /* my style */
 #rightPanel2 {
     position: fixed;
@@ -162,6 +177,7 @@ body{
     padding: 0;
     background-image: url('../img/wall.jpg');
 }
+
 #rightPanel2::after {
     position: absolute;
     content: '';
@@ -173,6 +189,19 @@ body{
     background-image: url('../img/wall.jpg');
     background-position: center;
     background-size: inherit;
+    margin: auto;
+}
+#rightPanel2::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    bottom: -113px;
+    width: 100%;
+    height: 118px;
+    background-image: url('../img/Boden.jpg');
+    background-position: center;
+    background-size: cover;
     margin: auto;
 }
 #GlasRight {
@@ -191,6 +220,7 @@ body{
     background-size: contain;
     z-index: 10;
 }
+
 #GlasRight::before {
     position: absolute;
     content: '';
@@ -200,6 +230,7 @@ body{
     height: 100%;
     background-color: black;
 }
+
 #GlasLeft {
     width: 60mm;
     height: 100mm;
@@ -216,6 +247,7 @@ body{
     background-size: contain;
     z-index: 10;
 }
+
 #GlasLeft::before {
     position: absolute;
     content: '';
@@ -225,6 +257,7 @@ body{
     height: 6%;
     background-color: black;
 }
+
 #GlasFront {
     /* overflow: hidden; */
     width: 47.4211mm;
@@ -243,6 +276,7 @@ body{
     background-size: cover;
     z-index: 10;
 }
+
 #GlasFront #line {
     position: absolute;
     content: '';
@@ -255,6 +289,7 @@ body{
     height: 4px;
     background-color: #b1b1b1;
 }
+
 #GlasFront #line::after {
     position: absolute;
     content: '';
@@ -264,6 +299,7 @@ body{
     height: 4px;
     background-color: black;
 }
+
 #GlasFront #line::before {
     position: absolute;
     content: '';
@@ -273,6 +309,7 @@ body{
     height: 4px;
     background-color: black;
 }
+
 #GlasFront #Glass {
     position: relative;
     width: 100%;
@@ -286,27 +323,34 @@ body{
     -webkit-backdrop-filter: blur(1px);
     opacity: 1;
 }
-#Glass #GlassColor{
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
+
+#Glass #GlassColor {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
 }
-#design,#design #svg,#design #designImg,#design #designImg img{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  inset: 0;
+
+#design,
+#design #svg,
+#design #designImg,
+#design #designImg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
 }
-#design #img{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  inset: 0;
-  margin: auto;
-  z-index: 8;
-  display: none;
+
+#design #img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    margin: auto;
+    z-index: 8;
+    display: none;
 }
+
 #Glass #lola-top {
     position: absolute;
     width: 20px;
@@ -314,6 +358,7 @@ body{
     right: -8px;
     z-index: 10;
 }
+
 #Glass #dastgire {
     position: absolute;
     bottom: 150px;
@@ -321,6 +366,7 @@ body{
     width: 51px;
     z-index: 10;
 }
+
 #Glass #lola-bottom {
     width: 20px;
     position: absolute;
@@ -328,98 +374,142 @@ body{
     right: -8px;
     z-index: 10;
 }
+
 .lola .cls-1,
 #dastgire .cls-1 {
     stroke-width: 1.16px;
 }
+
+#imgParent {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+#imgParent #img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+}
+
 .w-10 {
     width: 10px;
 }
+
 .w-12 {
     width: 12px;
 }
+
 .w-18 {
     width: 18px;
 }
+
 .w-22 {
     width: 22px;
 }
+
 .w-32 {
     width: 32px;
 }
+
 .w-40 {
     width: 40px;
 }
+
 .w-43 {
     width: 43px;
 }
+
 .w-51 {
     width: 51px;
 }
+
 .w-80 {
     width: 80px;
 }
+
 .w-90 {
     width: 90px;
 }
+
 .w-101 {
     width: 101px;
 }
+
 .w-120 {
     width: 120px;
 }
+
 .w-146 {
     width: 146px;
 }
+
 .w-165 {
     width: 165px;
 }
-.h-36{
+
+.h-36 {
     height: 36px;
 }
-.h-38{
+
+.h-38 {
     height: 38px;
 }
-.h-56{
+
+.h-56 {
     height: 56px;
 }
-.h-80{
+
+.h-80 {
     height: 80px;
 }
-.h-90{
+
+.h-90 {
     height: 90px;
 }
-.h-101{
+
+.h-101 {
     height: 101px;
 }
-.h-120{
+
+.h-120 {
     height: 120px;
 }
-.h-146{
+
+.h-146 {
     height: 146px;
 }
-.h-165{
+
+.h-165 {
     height: 165px;
 }
-.h-190{
+
+.h-190 {
     height: 190px;
 }
-.h-200{
+
+.h-200 {
     height: 200px;
 }
-.opacity-0{
+
+.opacity-0 {
     opacity: 0;
 }
-.cursor{
+
+.cursor {
     cursor: pointer;
 }
-.bg-gray{
+
+.bg-gray {
     background-color: #e9e9ed;
 }
-.ui-wrapper{
+
+.ui-wrapper {
     width: 100%;
     height: 100%;
 }
-.fs-12{
+
+.fs-12 {
     font-size: 12px;
 }

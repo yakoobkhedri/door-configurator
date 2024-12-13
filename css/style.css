@@ -59,7 +59,7 @@ label {
     border-radius: 10px;
     padding: 10px;
     position: fixed;
-    /z-index: 9999999;
+    z-index: 9999999;
     min-width: 200px;
     display: none;
     max-width: 300px;
@@ -73,7 +73,6 @@ label {
 
 #features{
 	font-size: 20px;
-
 }
 
 #printTop{
