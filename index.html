@@ -102,15 +102,15 @@
             <div class="row p-3" dir="rtl">
                 <div class="col-lg-3" id="leftPanel" dir="ltr">
                     <form class="d-flex flex-column gap-3 border-1 border p-3 rounded shadow-sm">
-                        <p>Steel | Line Variante 1</p>
+                        <p class="text-primary fw-bold">Steel | Line Variante 1</p>
                         <div class="d-flex flex-column gap-2">
-                            <p id="textasssss" style="display:block">Name Nachname</p>
+                            <p class="fw-bold text-dark opacity-100" id="textasssss" style="display:block">Name Nachname</p>
                             <input type="Text" class="form-control" name="width" id="Namee"
                                 placeholder="Max Mustermann" />
                         </div>
                         <!-- Farbauswahl für das Motiv-->
                         <div class="col-sm-10" style="display:Block">
-                            <h6>Maße nach Wandöffnung oder Rahmenaußenmaß ?</h6>
+                            <h6 class="fw-bold text-dark opacity-100">Maße nach Wandöffnung oder Rahmenaußenmaß ?</h6>
                             <select class="form-control" id="drpC">
                                 <option value="Wandoffnung">Wandöffnung</option>
                                 <option selected="selected" value="Zargenaußenmaß">Rahmenaußenmaß </option>
@@ -119,25 +119,25 @@
                         <p>
                             <!-- Breite Wandöffnung -->
                         <div class="col-sm-12" style="display:none" id="wwwwwBB">
-                            <p id="textaa" style="display:block">Breite (Wandöffnung) in mm</br> (min. 300mm max.
+                            <p class="fw-bold text-dark opacity-100" id="textaa" style="display:block">Breite (Wandöffnung) in mm</br> (min. 300mm max.
                                 1200mm)</p>
                             <input type="number" class="form-control width-input" name="width" id="wwwwwB" />
                         </div>
                         <!-- Breite Rahmenaußenmaß  -->
                         <div class="col-sm-12" style="display:Block" id="wwwwwH">
-                            <p id="textaa" style="display:block">Breite (Rahmenaußenmaß ) in mm</br> (min. 300mm max.
+                            <p class="fw-bold text-dark opacity-100" id="textaa" style="display:block">Breite (Rahmenaußenmaß ) in mm</br> (min. 300mm max.
                                 1200mm)</p>
                             <input type="number" min="300" max="1200" value="900" class="form-control width-input" name="width" id="wwwww" />
                         </div>
                         <!-- Höhe Wandöffnung -->
                         <div class="col-sm-12" style="display:none" id="Whhhh">
-                            <p id="textaa2" style="display:block">Höhe (Wandöffnung) in mm</br> (min. 1200mm max.
+                            <p class="fw-bold text-dark opacity-100" id="textaa2" style="display:block">Höhe (Wandöffnung) in mm</br> (min. 1200mm max.
                                 3000mm)</p>
                             <input type="number" class="form-control height-input" name="height" id="Whhh" />
                         </div>
                         <!-- Höhe Rahmenaußenmaß  -->
                         <div class="col-sm-12" style="display:Block" id="hhhF">
-                            <p id="textaa2" style="display:block">Höhe (Rahmenaußenmaß ) in mm</br> (min. 1200mm max.
+                            <p class="fw-bold text-dark opacity-100" id="textaa2" style="display:block">Höhe (Rahmenaußenmaß ) in mm</br> (min. 1200mm max.
                                 3000mm)</p>
                             <input type="number" class="form-control height-input" name="height" id="hhh" />
                         </div>
@@ -183,30 +183,30 @@
                         </div>
                         <!--Griffsitz UKT  display:none  -->
                         <!--lola design-->
-                        <div class="p-3">
+                        <div class="p-3 border-bottom border-top">
                             <p class="fw-bold"> lola Design</p>
                             <div class="d-flex justify-content-between gap-3">
                                 <a data-bs-toggle="modal" data-bs-target="#lolaDesign" class="w-100 text-dark text-decoration-none">
                                     <img id='loladesign' src="img/lola/piatto.png" class="slider-image mb-3" width="120" height="120" />
-                                    <label id="lolaLabel" for="Glasdesign" class="d-block">piatto</label>
+                                    <label id="lolaLabel" for="Glasdesign" class="d-block text-success fw-bold">piatto</label>
                                 </a>
                             </div>
                         </div>
                         <!--dastgire design-->
-                        <div class="p-3">
+                        <div class="p-3 border-bottom">
                             <p class="fw-bold"> dastgire Design</p>
                             <div class="d-flex justify-content-between gap-3">
                                 <a data-bs-toggle="modal" data-bs-target="#dastgireDesign" class="w-100 text-dark">
                                     <div class="d-flex align-items-center justify-content-center w-165 h-165">
                                         <img width="144" height="122" id='dastgiredesign' src="img/Dastgire/porto.png" class="slider-image mb-3 d-block mx-auto" />
                                     </div>
-                                    <label id="dastgireLabel" for="Glasdesign">porto</label>
+                                    <label id="dastgireLabel" for="Glasdesign" class="text-success fw-bold">porto</label>
                                 </a>
                             </div>
                         </div>
                         <!--Griffsitz UKT-->
-                        <div class="d-flex flex-column gap-2">
-                            <label>Griffsitz von Unterkante Tür in mm </label>
+                        <div class="d-flex flex-column gap-2 border-bottom pb-3">
+                            <label class="fw-bold text-dark opacity-100">Griffsitz von Unterkante Tür in mm </label>
                             <input onchange="changeSvgPosition(event)" type="number" value="50" class="form-control"
                                 name="Griff_AKG_Mass" id="GoM" />
                         </div>
@@ -217,30 +217,30 @@
                         <!--Glasstärke-->
                         <!--Metallfarbe-->
                         <div>
-                            <div class="p-3">
+                            <div class="p-3 border-bottom">
                                 <p class="fw-bold"> Farbe</p>
                                 <div class="d-flex justify-content-between gap-3">
                                     <a data-bs-toggle="modal" data-bs-target="#Schloss" class="w-100 text-dark">
                                         <img id='MetallFarbee' src="img/MetallFarbe/Black.jpg" class="slider-image mb-3"
                                         width="165" height="200" />
-                                        <label id="metallfarbeLabel" for="MetallFarbee">RAL 7021 Schwarzgrau</label>
+                                        <label class="text-success fw-bold text-success fw-bold" id="metallfarbeLabel" for="MetallFarbee">RAL 7021 Schwarzgrau</label>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <!--Glasart-->
-                        <div class="p-3">
+                        <div class="p-3 border-bottom">
                             <p class="fw-bold"> Glasart</p>
                             <div class="d-flex justify-content-between gap-3">
                                 <a data-bs-toggle="modal" data-bs-target="#galleryModalGlasart" class="text-dark">
                                     <img id='Glasartee' src="img/Glasart/ESG_Klar.jpg" class="slider-image mb-3 d-block"
                                         width="150" />
-                                    <label id="glasartLabel" for="Glasartee">ESG klar</label>
+                                    <label class="text-success fw-bold" id="glasartLabel" for="Glasartee">ESG klar</label>
                                 </a>
                             </div>
                         </div>
                         <!--upload Glasart design-->
-                        <div class="p-3">
+                        <div class="p-3 border-bottom">
                             <p class="fw-bold"> upload Glasart Design</p>
                             <div
                                 class="d-flex align-items-center gap-2 border rounded-1 overflow-hidden cursor position-relative">
@@ -251,13 +251,13 @@
                             </div>
                         </div>
                         <!--Glasart design-->
-                        <div class="p-3">
+                        <div class="p-3 border-bottom">
                             <p class="fw-bold"> Glasart Design</p>
                             <div class="d-flex justify-content-between gap-3">
                                 <a data-bs-toggle="modal" data-bs-target="#galleryModalGlasartDesign" class="text-dark w-100">
                                     <img id='Glasdesign' src="img/GlassDesign/cubus-1/cubus-1-model-door.png" class="slider-image mb-3 d-block"
                                     width="165" height="217" />
-                                    <label id="glasartDesignLabel" for="Glasdesign">cubus-1</label>
+                                    <label class="text-success fw-bold" id="glasartDesignLabel" for="Glasdesign">cubus-1</label>
                                 </a>
                             </div>
                         </div>
@@ -269,7 +269,7 @@
                                     <!-- <img id='GlasColor' src="img/MetallFarbe/Kupfer.jpg" class="slider-image mb-3"
                                      width="165" height="200" /> -->
                                      <div id="colorBox" style="background-color: #553131;" class="w-120 h-120 mb-3"></div>
-                                    <label class="d-block" id="glasartColorLabel" for="GlasColor">brown</label>
+                                    <label class="d-block text-success fw-bold" id="glasartColorLabel" for="GlasColor">brown</label>
                                 </a>
                             </div>
                         </div>
